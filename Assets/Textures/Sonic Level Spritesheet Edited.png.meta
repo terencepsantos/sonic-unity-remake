@@ -1,0 +1,2256 @@
+fileFormatVersion: 2
+guid: 09e9e5a770db91b4286bbb5401a29a5f
+timeCreated: 1479557846
+licenseType: Pro
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Sonic Level Spritesheet Edited_0
+    21300002: Sonic Level Spritesheet Edited_1
+    21300004: Sonic Level Spritesheet Edited_2
+    21300006: Sonic Level Spritesheet Edited_3
+    21300008: Sonic Level Spritesheet Edited_4
+    21300010: Sonic Level Spritesheet Edited_5
+    21300012: Sonic Level Spritesheet Edited_6
+    21300014: Sonic Level Spritesheet Edited_7
+    21300016: Sonic Level Spritesheet Edited_8
+    21300018: Sonic Level Spritesheet Edited_9
+    21300020: Sonic Level Spritesheet Edited_10
+    21300022: Sonic Level Spritesheet Edited_11
+    21300024: Sonic Level Spritesheet Edited_12
+    21300026: Sonic Level Spritesheet Edited_13
+    21300028: Sonic Level Spritesheet Edited_14
+    21300030: Sonic Level Spritesheet Edited_15
+    21300032: Sonic Level Spritesheet Edited_16
+    21300034: Sonic Level Spritesheet Edited_17
+    21300036: Sonic Level Spritesheet Edited_18
+    21300038: Sonic Level Spritesheet Edited_19
+    21300040: Sonic Level Spritesheet Edited_20
+    21300042: Sonic Level Spritesheet Edited_21
+    21300044: Sonic Level Spritesheet Edited_22
+    21300046: Sonic Level Spritesheet Edited_23
+    21300048: Sonic Level Spritesheet Edited_24
+    21300050: Sonic Level Spritesheet Edited_25
+    21300052: Sonic Level Spritesheet Edited_26
+    21300054: Sonic Level Spritesheet Edited_27
+    21300056: Sonic Level Spritesheet Edited_28
+    21300058: Sonic Level Spritesheet Edited_29
+    21300060: Sonic Level Spritesheet Edited_30
+    21300062: Sonic Level Spritesheet Edited_31
+    21300064: Sonic Level Spritesheet Edited_32
+    21300066: Sonic Level Spritesheet Edited_33
+    21300068: Sonic Level Spritesheet Edited_34
+    21300070: Sonic Level Spritesheet Edited_35
+    21300072: Sonic Level Spritesheet Edited_36
+    21300074: Sonic Level Spritesheet Edited_37
+    21300076: Sonic Level Spritesheet Edited_38
+    21300078: Sonic Level Spritesheet Edited_39
+    21300080: Sonic Level Spritesheet Edited_40
+    21300082: Sonic Level Spritesheet Edited_41
+    21300084: Sonic Level Spritesheet Edited_42
+    21300086: Sonic Level Spritesheet Edited_43
+    21300088: Sonic Level Spritesheet Edited_44
+    21300090: Sonic Level Spritesheet Edited_45
+    21300092: Sonic Level Spritesheet Edited_46
+    21300094: Sonic Level Spritesheet Edited_47
+    21300096: Sonic Level Spritesheet Edited_48
+    21300098: Sonic Level Spritesheet Edited_49
+    21300100: Sonic Level Spritesheet Edited_50
+    21300102: Sonic Level Spritesheet Edited_51
+    21300104: Sonic Level Spritesheet Edited_52
+    21300106: Sonic Level Spritesheet Edited_53
+    21300108: Sonic Level Spritesheet Edited_54
+    21300110: Sonic Level Spritesheet Edited_55
+    21300112: Sonic Level Spritesheet Edited_56
+    21300114: Sonic Level Spritesheet Edited_57
+    21300116: Sonic Level Spritesheet Edited_58
+    21300118: Sonic Level Spritesheet Edited_59
+    21300120: Sonic Level Spritesheet Edited_60
+    21300122: Sonic Level Spritesheet Edited_61
+    21300124: Sonic Level Spritesheet Edited_62
+    21300126: Sonic Level Spritesheet Edited_63
+    21300128: Sonic Level Spritesheet Edited_64
+    21300130: Sonic Level Spritesheet Edited_65
+    21300132: Sonic Level Spritesheet Edited_66
+    21300134: Sonic Level Spritesheet Edited_67
+    21300136: Sonic Level Spritesheet Edited_68
+    21300138: Sonic Level Spritesheet Edited_69
+    21300140: Sonic Level Spritesheet Edited_70
+    21300142: Sonic Level Spritesheet Edited_71
+    21300144: Sonic Level Spritesheet Edited_72
+    21300146: Sonic Level Spritesheet Edited_73
+    21300148: Sonic Level Spritesheet Edited_74
+    21300150: Sonic Level Spritesheet Edited_75
+    21300152: Sonic Level Spritesheet Edited_76
+    21300154: Sonic Level Spritesheet Edited_77
+    21300156: Sonic Level Spritesheet Edited_78
+    21300158: Sonic Level Spritesheet Edited_79
+    21300160: Sonic Level Spritesheet Edited_80
+    21300162: Sonic Level Spritesheet Edited_81
+    21300164: Sonic Level Spritesheet Edited_82
+    21300166: Sonic Level Spritesheet Edited_83
+    21300168: Sonic Level Spritesheet Edited_84
+    21300170: Sonic Level Spritesheet Edited_85
+    21300172: Sonic Level Spritesheet Edited_86
+    21300174: Sonic Level Spritesheet Edited_87
+    21300176: Sonic Level Spritesheet Edited_88
+    21300178: Sonic Level Spritesheet Edited_89
+    21300180: Sonic Level Spritesheet Edited_90
+    21300182: Sonic Level Spritesheet Edited_91
+    21300184: Sonic Level Spritesheet Edited_92
+    21300186: Sonic Level Spritesheet Edited_93
+    21300188: Sonic Level Spritesheet Edited_94
+    21300190: Sonic Level Spritesheet Edited_95
+    21300192: Sonic Level Spritesheet Edited_96
+    21300194: Sonic Level Spritesheet Edited_97
+    21300196: Sonic Level Spritesheet Edited_98
+    21300198: Sonic Level Spritesheet Edited_99
+    21300200: Sonic Level Spritesheet Edited_100
+    21300202: Sonic Level Spritesheet Edited_101
+    21300204: Sonic Level Spritesheet Edited_102
+    21300206: Sonic Level Spritesheet Edited_103
+    21300208: Sonic Level Spritesheet Edited_104
+    21300210: Sonic Level Spritesheet Edited_105
+    21300212: Sonic Level Spritesheet Edited_106
+    21300214: Sonic Level Spritesheet Edited_107
+    21300216: Sonic Level Spritesheet Edited_108
+    21300218: Sonic Level Spritesheet Edited_109
+    21300220: Sonic Level Spritesheet Edited_110
+    21300222: Sonic Level Spritesheet Edited_111
+    21300224: Sonic Level Spritesheet Edited_112
+    21300226: Sonic Level Spritesheet Edited_113
+    21300228: Sonic Level Spritesheet Edited_114
+    21300230: Sonic Level Spritesheet Edited_115
+    21300232: Sonic Level Spritesheet Edited_116
+    21300234: Sonic Level Spritesheet Edited_117
+    21300236: Sonic Level Spritesheet Edited_118
+    21300238: Sonic Level Spritesheet Edited_119
+    21300240: Sonic Level Spritesheet Edited_120
+    21300242: Sonic Level Spritesheet Edited_121
+    21300244: Sonic Level Spritesheet Edited_122
+    21300246: Sonic Level Spritesheet Edited_123
+    21300248: Sonic Level Spritesheet Edited_124
+    21300250: Sonic Level Spritesheet Edited_125
+    21300252: Sonic Level Spritesheet Edited_126
+    21300254: Sonic Level Spritesheet Edited_127
+    21300256: Sonic Level Spritesheet Edited_128
+    21300258: Sonic Level Spritesheet Edited_129
+    21300260: Sonic Level Spritesheet Edited_130
+    21300262: Sonic Level Spritesheet Edited_131
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 30
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Sonic Level Spritesheet Edited_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1871
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -64, y: 64}
+        - {x: -64, y: -64}
+        - {x: 64, y: -64}
+        - {x: 64, y: 64}
+    - name: Sonic Level Spritesheet Edited_1
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 1871
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -64, y: 64}
+        - {x: -64, y: -64}
+        - {x: 64, y: -64}
+        - {x: 64, y: 64}
+    - name: Sonic Level Spritesheet Edited_2
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 1871
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -64, y: 64}
+        - {x: -64, y: -64}
+        - {x: 64, y: -64}
+        - {x: 64, y: 64}
+    - name: Sonic Level Spritesheet Edited_3
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 1871
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -64, y: 64}
+        - {x: -64, y: -64}
+        - {x: 64, y: -64}
+        - {x: 64, y: 64}
+    - name: Sonic Level Spritesheet Edited_4
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 1871
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -64, y: 64}
+        - {x: -64, y: -64}
+        - {x: 64, y: -64}
+        - {x: 64, y: 64}
+    - name: Sonic Level Spritesheet Edited_5
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 1900
+        width: 79
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -39.5, y: -3.5}
+        - {x: -39.5, y: -24.5}
+        - {x: -38.5, y: -27.5}
+        - {x: 39.5, y: -27.5}
+        - {x: 39.5, y: 27.5}
+        - {x: 1.5, y: 27.5}
+        - {x: -31.5, y: 21.5}
+    - name: Sonic Level Spritesheet Edited_6
+      rect:
+        serializedVersion: 2
+        x: 732
+        y: 1900
+        width: 128
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -36, y: 48}
+        - {x: -64, y: 31}
+        - {x: -64, y: -48}
+        - {x: 64, y: -48}
+        - {x: 64, y: 8}
+        - {x: 37, y: 48}
+    - name: Sonic Level Spritesheet Edited_7
+      rect:
+        serializedVersion: 2
+        x: 861
+        y: 1900
+        width: 79
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 30.5, y: 14.5}
+        - {x: 23.5, y: 24.5}
+        - {x: -3.5, y: 27.5}
+        - {x: -39.5, y: 27.5}
+        - {x: -39.5, y: -27.5}
+        - {x: 38.5, y: -27.5}
+        - {x: 39.5, y: -23.5}
+        - {x: 39.5, y: -9.5}
+        - {x: 35.5, y: -10.5}
+    - name: Sonic Level Spritesheet Edited_8
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1742
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -64, y: 64}
+        - {x: -64, y: -64}
+        - {x: 64, y: -64}
+        - {x: 64, y: 64}
+    - name: Sonic Level Spritesheet Edited_9
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 1742
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -64, y: 64}
+        - {x: -64, y: -64}
+        - {x: 64, y: -64}
+        - {x: 64, y: 64}
+    - name: Sonic Level Spritesheet Edited_10
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 1742
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -64, y: 64}
+        - {x: -64, y: -64}
+        - {x: 64, y: -64}
+        - {x: 64, y: 64}
+    - name: Sonic Level Spritesheet Edited_11
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 1742
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -64, y: 64}
+        - {x: -64, y: -64}
+        - {x: 64, y: -64}
+        - {x: 64, y: 64}
+    - name: Sonic Level Spritesheet Edited_12
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 1744
+        width: 60
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -30, y: 45}
+        - {x: -30, y: -16}
+        - {x: -5, y: -45}
+        - {x: 5, y: -45}
+        - {x: 30, y: 5}
+        - {x: 30, y: 29}
+        - {x: -8, y: 45}
+    - name: Sonic Level Spritesheet Edited_13
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 1743
+        width: 60
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 14, y: 50}
+        - {x: -30, y: 30}
+        - {x: -30, y: -25}
+        - {x: -14, y: -50}
+        - {x: 3, y: -50}
+        - {x: 28, y: -2}
+        - {x: 30, y: 3}
+        - {x: 30, y: 50}
+    - name: Sonic Level Spritesheet Edited_14
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 1773
+        width: 79
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -39.5, y: 63}
+        - {x: -39.5, y: -9}
+        - {x: -36.5, y: -36}
+        - {x: -23.5, y: -44}
+        - {x: -14.5, y: -37}
+        - {x: 3.5, y: -63}
+        - {x: 39.5, y: -63}
+        - {x: 39.5, y: 63}
+      - - {x: -39.5, y: -34}
+        - {x: -36.5, y: -33}
+        - {x: -36.5, y: -25}
+        - {x: -38.5, y: -23}
+        - {x: -39.5, y: -23}
+      - - {x: -39.5, y: -2}
+        - {x: -36.5, y: -1}
+        - {x: -36.5, y: 7}
+        - {x: -38.5, y: 9}
+        - {x: -39.5, y: 9}
+    - name: Sonic Level Spritesheet Edited_15
+      rect:
+        serializedVersion: 2
+        x: 747
+        y: 1816
+        width: 104
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 22, y: 40}
+        - {x: -42, y: 40}
+        - {x: -52, y: 8}
+        - {x: -52, y: -20}
+        - {x: -41, y: -40}
+        - {x: 45, y: -40}
+        - {x: 52, y: -24}
+        - {x: 52, y: 16}
+    - name: Sonic Level Spritesheet Edited_16
+      rect:
+        serializedVersion: 2
+        x: 861
+        y: 1773
+        width: 79
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 15.5, y: -36}
+        - {x: 21.5, y: -42}
+        - {x: 32.5, y: -36}
+        - {x: 39.5, y: 5}
+        - {x: 39.5, y: 63}
+        - {x: -39.5, y: 63}
+        - {x: -39.5, y: -63}
+        - {x: -15.5, y: -63}
+        - {x: -12.5, y: -58}
+        - {x: 6.5, y: -20}
+        - {x: 3.5, y: -22}
+    - name: Sonic Level Spritesheet Edited_17
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1613
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -64, y: 64}
+        - {x: -64, y: -64}
+        - {x: 64, y: -64}
+        - {x: 64, y: 64}
+    - name: Sonic Level Spritesheet Edited_18
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 1613
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -64, y: 64}
+        - {x: -64, y: -64}
+        - {x: 64, y: -64}
+        - {x: 64, y: 64}
+    - name: Sonic Level Spritesheet Edited_19
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 1631
+        width: 99
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 49.5, y: 50.5}
+        - {x: -9.5, y: 50.5}
+        - {x: -47.5, y: 45.5}
+        - {x: -49.5, y: 40.5}
+        - {x: -49.5, y: -39.5}
+        - {x: -32.5, y: -50.5}
+        - {x: 12.5, y: -50.5}
+        - {x: 18.5, y: -48.5}
+        - {x: 45.5, y: -37.5}
+        - {x: 49.5, y: -34.5}
+    - name: Sonic Level Spritesheet Edited_20
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 1645
+        width: 64
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 40}
+        - {x: -32, y: -14}
+        - {x: 0, y: -40}
+        - {x: 32, y: -40}
+        - {x: 32, y: 40}
+    - name: Sonic Level Spritesheet Edited_21
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 1629
+        width: 64
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 48}
+        - {x: -32, y: -48}
+        - {x: 13, y: -48}
+        - {x: 32, y: -34}
+        - {x: 32, y: 48}
+    - name: Sonic Level Spritesheet Edited_22
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 1677
+        width: 128
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -64, y: 24}
+        - {x: -64, y: -24}
+        - {x: 64, y: -24}
+        - {x: 64, y: -1}
+        - {x: -42, y: 24}
+    - name: Sonic Level Spritesheet Edited_23
+      rect:
+        serializedVersion: 2
+        x: 633
+        y: 1677
+        width: 96
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 15, y: 27.5}
+        - {x: -48, y: -9.5}
+        - {x: -48, y: -27.5}
+        - {x: 19, y: -27.5}
+        - {x: 48, y: -1.5}
+        - {x: 48, y: 27.5}
+    - name: Sonic Level Spritesheet Edited_24
+      rect:
+        serializedVersion: 2
+        x: 731
+        y: 1687
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2, y: 64}
+        - {x: -61, y: -5}
+        - {x: -64, y: -9}
+        - {x: -64, y: -64}
+        - {x: 64, y: -64}
+        - {x: 64, y: 4}
+        - {x: 18, y: 64}
+    - name: Sonic Level Spritesheet Edited_25
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 1633
+        width: 67
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -28.5, y: 17}
+        - {x: -33.5, y: 16}
+        - {x: -33.5, y: -17}
+        - {x: 32.5, y: -17}
+        - {x: 33.5, y: -14}
+        - {x: 33.5, y: 17}
+    - name: Sonic Level Spritesheet Edited_26
+      rect:
+        serializedVersion: 2
+        x: 653
+        y: 1520
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -64, y: 64}
+        - {x: -64, y: -64}
+        - {x: 64, y: -64}
+        - {x: 64, y: -8}
+        - {x: 22, y: 64}
+    - name: Sonic Level Spritesheet Edited_27
+      rect:
+        serializedVersion: 2
+        x: 789
+        y: 1538
+        width: 128
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42, y: 62.5}
+        - {x: -64, y: 21.5}
+        - {x: -64, y: -62.5}
+        - {x: 64, y: -62.5}
+        - {x: 64, y: 61.5}
+        - {x: 43, y: 62.5}
+    - name: Sonic Level Spritesheet Edited_28
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1484
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -64, y: 64}
+        - {x: -64, y: -64}
+        - {x: 64, y: -64}
+        - {x: 64, y: 64}
+    - name: Sonic Level Spritesheet Edited_29
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 1484
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -64, y: 64}
+        - {x: -64, y: -64}
+        - {x: 64, y: -64}
+        - {x: 64, y: 64}
+    - name: Sonic Level Spritesheet Edited_30
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 1484
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -64, y: 64}
+        - {x: -64, y: -64}
+        - {x: 64, y: -64}
+        - {x: 64, y: 64}
+    - name: Sonic Level Spritesheet Edited_31
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 1484
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -64, y: 64}
+        - {x: -64, y: -64}
+        - {x: 64, y: -64}
+        - {x: 64, y: 64}
+    - name: Sonic Level Spritesheet Edited_32
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 1484
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -64, y: 64}
+        - {x: -64, y: -64}
+        - {x: 64, y: -64}
+        - {x: 64, y: 64}
+    - name: Sonic Level Spritesheet Edited_33
+      rect:
+        serializedVersion: 2
+        x: 827
+        y: 1491
+        width: 64
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 19.5}
+        - {x: -32, y: -19.5}
+        - {x: 32, y: -19.5}
+        - {x: 32, y: 19.5}
+    - name: Sonic Level Spritesheet Edited_34
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1355
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -64, y: 64}
+        - {x: -64, y: -64}
+        - {x: 64, y: -64}
+        - {x: 64, y: 64}
+    - name: Sonic Level Spritesheet Edited_35
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 1355
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -64, y: 64}
+        - {x: -64, y: -64}
+        - {x: 64, y: -64}
+        - {x: 64, y: 64}
+    - name: Sonic Level Spritesheet Edited_36
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 1355
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -64, y: 64}
+        - {x: -64, y: -64}
+        - {x: 64, y: -64}
+        - {x: 64, y: 64}
+    - name: Sonic Level Spritesheet Edited_37
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 1355
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -64, y: 64}
+        - {x: -64, y: -64}
+        - {x: 64, y: -64}
+        - {x: 64, y: 64}
+    - name: Sonic Level Spritesheet Edited_38
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 1355
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -64, y: 64}
+        - {x: -64, y: -64}
+        - {x: 64, y: -64}
+        - {x: 64, y: 64}
+    - name: Sonic Level Spritesheet Edited_39
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 1355
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -64, y: 64}
+        - {x: -64, y: -64}
+        - {x: 64, y: -64}
+        - {x: 64, y: 64}
+    - name: Sonic Level Spritesheet Edited_40
+      rect:
+        serializedVersion: 2
+        x: 791
+        y: 1420
+        width: 96
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48, y: 32}
+        - {x: -48, y: -32}
+        - {x: 48, y: -32}
+        - {x: 48, y: 32}
+    - name: Sonic Level Spritesheet Edited_41
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1226
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -64, y: 64}
+        - {x: -64, y: -64}
+        - {x: 64, y: -64}
+        - {x: 64, y: 64}
+    - name: Sonic Level Spritesheet Edited_42
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 1226
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -64, y: 64}
+        - {x: -64, y: -64}
+        - {x: 64, y: -64}
+        - {x: 64, y: 64}
+    - name: Sonic Level Spritesheet Edited_43
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 1226
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -64, y: 64}
+        - {x: -64, y: -64}
+        - {x: 64, y: -64}
+        - {x: 64, y: 64}
+    - name: Sonic Level Spritesheet Edited_44
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 1226
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -64, y: 64}
+        - {x: -64, y: -64}
+        - {x: 64, y: -64}
+        - {x: 64, y: 64}
+    - name: Sonic Level Spritesheet Edited_45
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 1226
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -64, y: 64}
+        - {x: -64, y: -64}
+        - {x: 64, y: -64}
+        - {x: 64, y: 64}
+    - name: Sonic Level Spritesheet Edited_46
+      rect:
+        serializedVersion: 2
+        x: 795
+        y: 1353
+        width: 96
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -43, y: 32}
+        - {x: -48, y: 28}
+        - {x: -48, y: -32}
+        - {x: 48, y: -32}
+        - {x: 48, y: 32}
+    - name: Sonic Level Spritesheet Edited_47
+      rect:
+        serializedVersion: 2
+        x: 707
+        y: 1226
+        width: 67
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14.5, y: 43.5}
+        - {x: -33.5, y: 37.5}
+        - {x: -33.5, y: -34.5}
+        - {x: -32.5, y: -43.5}
+        - {x: 33.5, y: -43.5}
+        - {x: 33.5, y: 43.5}
+    - name: Sonic Level Spritesheet Edited_48
+      rect:
+        serializedVersion: 2
+        x: 775
+        y: 1226
+        width: 128
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -19, y: 62.5}
+        - {x: -64, y: 47.5}
+        - {x: -64, y: -62.5}
+        - {x: 64, y: -62.5}
+        - {x: 64, y: 62.5}
+    - name: Sonic Level Spritesheet Edited_49
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 1097
+        width: 127
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -53.5, y: 64}
+        - {x: -63.5, y: 57}
+        - {x: -63.5, y: -64}
+        - {x: 63.5, y: -64}
+        - {x: 63.5, y: 64}
+    - name: Sonic Level Spritesheet Edited_50
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 1097
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -64, y: 64}
+        - {x: -64, y: -64}
+        - {x: 64, y: -64}
+        - {x: 64, y: 64}
+    - name: Sonic Level Spritesheet Edited_51
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 1097
+        width: 127
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -63.5, y: 64}
+        - {x: -63.5, y: -64}
+        - {x: 63.5, y: -64}
+        - {x: 63.5, y: 64}
+    - name: Sonic Level Spritesheet Edited_52
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 1097
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -64, y: 64}
+        - {x: -64, y: -64}
+        - {x: 64, y: -64}
+        - {x: 64, y: 64}
+    - name: Sonic Level Spritesheet Edited_53
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 1097
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -64, y: 64}
+        - {x: -64, y: -64}
+        - {x: 64, y: -64}
+        - {x: 64, y: 64}
+    - name: Sonic Level Spritesheet Edited_54
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 1097
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -64, y: 64}
+        - {x: -64, y: -64}
+        - {x: 64, y: -64}
+        - {x: 64, y: 64}
+    - name: Sonic Level Spritesheet Edited_55
+      rect:
+        serializedVersion: 2
+        x: 775
+        y: 1097
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -64, y: 64}
+        - {x: -64, y: -64}
+        - {x: 64, y: -64}
+        - {x: 64, y: 64}
+    - name: Sonic Level Spritesheet Edited_56
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 968
+        width: 127
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -63.5, y: 64}
+        - {x: -63.5, y: 10}
+        - {x: -48.5, y: -23}
+        - {x: -46.5, y: -27}
+        - {x: -38.5, y: -20}
+        - {x: -39.5, y: -18}
+        - {x: 15.5, y: -64}
+        - {x: 63.5, y: -64}
+        - {x: 63.5, y: 64}
+    - name: Sonic Level Spritesheet Edited_57
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 968
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -64, y: 64}
+        - {x: -64, y: -64}
+        - {x: 64, y: -64}
+        - {x: 64, y: 64}
+    - name: Sonic Level Spritesheet Edited_58
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 980
+        width: 48
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -24, y: 49}
+        - {x: -24, y: -49}
+        - {x: 24, y: -49}
+        - {x: 24, y: 49}
+    - name: Sonic Level Spritesheet Edited_59
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 968
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -64, y: 64}
+        - {x: -64, y: -64}
+        - {x: 64, y: -64}
+        - {x: 64, y: 64}
+    - name: Sonic Level Spritesheet Edited_60
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 968
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -64, y: 64}
+        - {x: -64, y: -64}
+        - {x: 64, y: -64}
+        - {x: 64, y: 64}
+    - name: Sonic Level Spritesheet Edited_61
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 968
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -64, y: 64}
+        - {x: -64, y: -64}
+        - {x: 64, y: -64}
+        - {x: 64, y: 64}
+    - name: Sonic Level Spritesheet Edited_62
+      rect:
+        serializedVersion: 2
+        x: 775
+        y: 968
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -64, y: 64}
+        - {x: -64, y: -64}
+        - {x: 64, y: -64}
+        - {x: 64, y: 64}
+    - name: Sonic Level Spritesheet Edited_63
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 839
+        width: 127
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -63.5, y: 20}
+        - {x: -63.5, y: -59}
+        - {x: -52.5, y: -64}
+        - {x: 63.5, y: -64}
+        - {x: 63.5, y: 64}
+        - {x: 8.5, y: 64}
+        - {x: -7.5, y: 60}
+    - name: Sonic Level Spritesheet Edited_64
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 888
+        width: 127
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 63.5, y: -35.5}
+        - {x: 63.5, y: 39.5}
+        - {x: -61.5, y: 39.5}
+        - {x: -63.5, y: 36.5}
+        - {x: -63.5, y: -10.5}
+        - {x: -49.5, y: -39.5}
+        - {x: -40.5, y: -39.5}
+        - {x: -37.5, y: -33.5}
+        - {x: -21.5, y: -39.5}
+        - {x: 54.5, y: -39.5}
+    - name: Sonic Level Spritesheet Edited_65
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 887
+        width: 127
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 45.5, y: -33.5}
+        - {x: 48.5, y: -32.5}
+        - {x: 63.5, y: 2.5}
+        - {x: 63.5, y: 39.5}
+        - {x: -63.5, y: 39.5}
+        - {x: -63.5, y: -31.5}
+        - {x: -55.5, y: -37.5}
+        - {x: -34.5, y: -35.5}
+        - {x: -20.5, y: -20.5}
+        - {x: -16.5, y: -35.5}
+        - {x: -12.5, y: -39.5}
+        - {x: -7.5, y: -39.5}
+        - {x: -4.5, y: -33.5}
+        - {x: 1.5, y: -11.5}
+        - {x: 36.5, y: -29.5}
+    - name: Sonic Level Spritesheet Edited_66
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 839
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -64, y: 64}
+        - {x: -64, y: -64}
+        - {x: 64, y: -64}
+        - {x: 64, y: 64}
+    - name: Sonic Level Spritesheet Edited_67
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 839
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -64, y: 64}
+        - {x: -64, y: -64}
+        - {x: 64, y: -64}
+        - {x: 64, y: 64}
+    - name: Sonic Level Spritesheet Edited_68
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 839
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -64, y: 64}
+        - {x: -64, y: -64}
+        - {x: 64, y: -64}
+        - {x: 64, y: 64}
+    - name: Sonic Level Spritesheet Edited_69
+      rect:
+        serializedVersion: 2
+        x: 775
+        y: 839
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -64, y: 64}
+        - {x: -64, y: -64}
+        - {x: 64, y: -64}
+        - {x: 64, y: 64}
+    - name: Sonic Level Spritesheet Edited_70
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 880
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Sonic Level Spritesheet Edited_71
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 711
+        width: 128
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 61, y: -58.5}
+        - {x: 64, y: -54.5}
+        - {x: 64, y: 63.5}
+        - {x: -64, y: 63.5}
+        - {x: -64, y: -36.5}
+        - {x: -39, y: -58.5}
+        - {x: -8, y: -63.5}
+        - {x: 16, y: -63.5}
+        - {x: 17, y: -59.5}
+        - {x: 17, y: -58.5}
+        - {x: 40, y: -61.5}
+    - name: Sonic Level Spritesheet Edited_72
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 711
+        width: 128
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -64, y: 63.5}
+        - {x: -64, y: -41.5}
+        - {x: -63, y: -59.5}
+        - {x: -49, y: -63.5}
+        - {x: 44, y: -63.5}
+        - {x: 64, y: -59.5}
+        - {x: 64, y: 63.5}
+    - name: Sonic Level Spritesheet Edited_73
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 710
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -64, y: 64}
+        - {x: -64, y: -64}
+        - {x: 64, y: -64}
+        - {x: 64, y: 64}
+    - name: Sonic Level Spritesheet Edited_74
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 710
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -64, y: 64}
+        - {x: -64, y: -64}
+        - {x: 64, y: -64}
+        - {x: 64, y: 64}
+    - name: Sonic Level Spritesheet Edited_75
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 710
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -64, y: 64}
+        - {x: -64, y: -64}
+        - {x: 64, y: -64}
+        - {x: 64, y: 64}
+    - name: Sonic Level Spritesheet Edited_76
+      rect:
+        serializedVersion: 2
+        x: 775
+        y: 710
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -64, y: 64}
+        - {x: -64, y: -64}
+        - {x: 64, y: -64}
+        - {x: 64, y: 64}
+    - name: Sonic Level Spritesheet Edited_77
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 579
+        width: 127
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -63.5, y: 64}
+        - {x: -63.5, y: -64}
+        - {x: 63.5, y: -64}
+        - {x: 63.5, y: 64}
+    - name: Sonic Level Spritesheet Edited_78
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 579
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -64, y: 64}
+        - {x: -64, y: -64}
+        - {x: 64, y: -64}
+        - {x: 64, y: 64}
+    - name: Sonic Level Spritesheet Edited_79
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 615
+        width: 128
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 15, y: 24}
+        - {x: -64, y: 6}
+        - {x: -64, y: -24}
+        - {x: 64, y: -24}
+        - {x: 64, y: 24}
+    - name: Sonic Level Spritesheet Edited_80
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 615
+        width: 128
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 41, y: 43.5}
+        - {x: 10, y: 38.5}
+        - {x: -22, y: 32.5}
+        - {x: -64, y: 15.5}
+        - {x: -64, y: -43.5}
+        - {x: 64, y: -43.5}
+        - {x: 64, y: 42.5}
+        - {x: 63, y: 43.5}
+    - name: Sonic Level Spritesheet Edited_81
+      rect:
+        serializedVersion: 2
+        x: 647
+        y: 619
+        width: 128
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -64, y: -36}
+        - {x: 64, y: -36}
+        - {x: 64, y: 36}
+        - {x: -21, y: 36}
+        - {x: -64, y: 29}
+    - name: Sonic Level Spritesheet Edited_82
+      rect:
+        serializedVersion: 2
+        x: 776
+        y: 619
+        width: 128
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 64, y: -44}
+        - {x: 64, y: 4}
+        - {x: 62, y: 25}
+        - {x: -8, y: 44}
+        - {x: -64, y: 44}
+        - {x: -64, y: -44}
+    - name: Sonic Level Spritesheet Edited_83
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 466
+        width: 127
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -63.5, y: 56}
+        - {x: -63.5, y: -18}
+        - {x: -53.5, y: -53}
+        - {x: -24.5, y: -56}
+        - {x: 63.5, y: -56}
+        - {x: 63.5, y: 56}
+    - name: Sonic Level Spritesheet Edited_84
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 450
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -64, y: 64}
+        - {x: -64, y: -51}
+        - {x: -45, y: -56}
+        - {x: 20, y: -64}
+        - {x: 64, y: -64}
+        - {x: 64, y: 64}
+    - name: Sonic Level Spritesheet Edited_85
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 466
+        width: 128
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 49, y: -38}
+        - {x: 64, y: -1}
+        - {x: 64, y: 33}
+        - {x: 58, y: 40}
+        - {x: 56, y: 42}
+        - {x: 58, y: 40}
+        - {x: 64, y: 38}
+        - {x: 64, y: 56}
+        - {x: -64, y: 56}
+        - {x: -64, y: -56}
+        - {x: -24, y: -56}
+        - {x: 1, y: -43}
+        - {x: 43, y: -43}
+        - {x: 48, y: -41}
+    - name: Sonic Level Spritesheet Edited_86
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 486
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -64, y: 64}
+        - {x: -64, y: -64}
+        - {x: 64, y: -64}
+        - {x: 64, y: 24}
+        - {x: -11, y: 64}
+    - name: Sonic Level Spritesheet Edited_87
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 486
+        width: 128
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -44, y: 40}
+        - {x: -64, y: 40}
+        - {x: -64, y: -40}
+        - {x: 64, y: -40}
+        - {x: 64, y: -16}
+        - {x: 30, y: 17}
+    - name: Sonic Level Spritesheet Edited_88
+      rect:
+        serializedVersion: 2
+        x: 647
+        y: 490
+        width: 120
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -55, y: 64}
+        - {x: -59, y: 48}
+        - {x: -60, y: 46}
+        - {x: -60, y: -38}
+        - {x: -51, y: -64}
+        - {x: -7, y: -64}
+        - {x: 60, y: 60}
+        - {x: 60, y: 64}
+    - name: Sonic Level Spritesheet Edited_89
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 490
+        width: 120
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -60, y: 64}
+        - {x: -60, y: -20}
+        - {x: 11, y: -64}
+        - {x: 60, y: -64}
+        - {x: 60, y: 64}
+    - name: Sonic Level Spritesheet Edited_90
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 337
+        width: 128
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: 66}
+        - {x: -54, y: 58}
+        - {x: -64, y: 48}
+        - {x: -64, y: -66}
+        - {x: 64, y: -66}
+        - {x: 64, y: 66}
+    - name: Sonic Level Spritesheet Edited_91
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 466
+        width: 57
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Sonic Level Spritesheet Edited_92
+      rect:
+        serializedVersion: 2
+        x: 647
+        y: 361
+        width: 120
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -55, y: 64}
+        - {x: -59, y: 48}
+        - {x: -60, y: 46}
+        - {x: -60, y: -38}
+        - {x: -51, y: -64}
+        - {x: -7, y: -64}
+        - {x: 60, y: 60}
+        - {x: 60, y: 64}
+    - name: Sonic Level Spritesheet Edited_93
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 361
+        width: 120
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -60, y: 64}
+        - {x: -60, y: -15}
+        - {x: 12, y: -64}
+        - {x: 60, y: -64}
+        - {x: 60, y: 64}
+    - name: Sonic Level Spritesheet Edited_94
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 451
+        width: 7
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Sonic Level Spritesheet Edited_95
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 451
+        width: 7
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Sonic Level Spritesheet Edited_96
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 362
+        width: 128
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 17, y: 42}
+        - {x: -64, y: -17}
+        - {x: -64, y: -42}
+        - {x: 64, y: -42}
+        - {x: 64, y: 42}
+    - name: Sonic Level Spritesheet Edited_97
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 319
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -64, y: 64}
+        - {x: -64, y: -64}
+        - {x: 64, y: -64}
+        - {x: 64, y: 64}
+    - name: Sonic Level Spritesheet Edited_98
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 337
+        width: 128
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 28, y: 24}
+        - {x: -54, y: 3}
+        - {x: -64, y: -6}
+        - {x: -64, y: -24}
+        - {x: 64, y: -24}
+        - {x: 64, y: 24}
+    - name: Sonic Level Spritesheet Edited_99
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 337
+        width: 128
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -3, y: 40}
+        - {x: -64, y: 18}
+        - {x: -64, y: -40}
+        - {x: 64, y: -40}
+        - {x: 64, y: 40}
+    - name: Sonic Level Spritesheet Edited_100
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 260
+        width: 128
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -63, y: 27.5}
+        - {x: -64, y: 26.5}
+        - {x: -64, y: -27.5}
+        - {x: 64, y: -27.5}
+        - {x: 64, y: 27.5}
+    - name: Sonic Level Spritesheet Edited_101
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 260
+        width: 128
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18, y: 24}
+        - {x: -64, y: 24}
+        - {x: -64, y: -24}
+        - {x: 64, y: -24}
+        - {x: 64, y: -2}
+        - {x: 57, y: 13}
+    - name: Sonic Level Spritesheet Edited_102
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 260
+        width: 28
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Sonic Level Spritesheet Edited_103
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 289
+        width: 128
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -56, y: -5}
+        - {x: -58, y: -8}
+        - {x: -58, y: -18}
+        - {x: -43, y: -18}
+        - {x: -39, y: -16}
+        - {x: -39, y: -7}
+        - {x: -44, y: -5}
+      - - {x: -33, y: 18}
+        - {x: -64, y: 18}
+        - {x: -64, y: 6}
+        - {x: 18, y: -18}
+        - {x: 64, y: -18}
+        - {x: 64, y: -9}
+        - {x: 46, y: 3}
+    - name: Sonic Level Spritesheet Edited_104
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 282
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Sonic Level Spritesheet Edited_105
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 298
+        width: 22
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Sonic Level Spritesheet Edited_106
+      rect:
+        serializedVersion: 2
+        x: 554
+        y: 299
+        width: 22
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Sonic Level Spritesheet Edited_107
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 299
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Sonic Level Spritesheet Edited_108
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 299
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Sonic Level Spritesheet Edited_109
+      rect:
+        serializedVersion: 2
+        x: 647
+        y: 232
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -61, y: 64}
+        - {x: -64, y: 63}
+        - {x: -64, y: -64}
+        - {x: 64, y: -64}
+        - {x: 64, y: 27}
+        - {x: 10, y: 64}
+    - name: Sonic Level Spritesheet Edited_110
+      rect:
+        serializedVersion: 2
+        x: 776
+        y: 232
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 59, y: 16}
+        - {x: 63, y: 60}
+        - {x: 62, y: 64}
+        - {x: 18, y: 64}
+        - {x: 11, y: 61}
+        - {x: -64, y: 25}
+        - {x: -64, y: -64}
+        - {x: 64, y: -64}
+        - {x: 64, y: 4}
+        - {x: 61, y: 13}
+    - name: Sonic Level Spritesheet Edited_111
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 260
+        width: 57
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Sonic Level Spritesheet Edited_112
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 265
+        width: 4
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Sonic Level Spritesheet Edited_113
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 252
+        width: 64
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Sonic Level Spritesheet Edited_114
+      rect:
+        serializedVersion: 2
+        x: 526
+        y: 262
+        width: 46
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Sonic Level Spritesheet Edited_115
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 211
+        width: 48
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -19, y: 39.5}
+        - {x: -24, y: 32.5}
+        - {x: -24, y: -38.5}
+        - {x: -23, y: -39.5}
+        - {x: 24, y: -39.5}
+        - {x: 24, y: 30.5}
+        - {x: 19, y: 39.5}
+    - name: Sonic Level Spritesheet Edited_116
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 259
+        width: 22
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Sonic Level Spritesheet Edited_117
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 131
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -64, y: 64}
+        - {x: -64, y: -64}
+        - {x: 64, y: -64}
+        - {x: 64, y: 64}
+    - name: Sonic Level Spritesheet Edited_118
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 131
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 30, y: 64}
+        - {x: -64, y: 64}
+        - {x: -64, y: -64}
+        - {x: 64, y: -64}
+        - {x: 64, y: 51}
+        - {x: 59, y: 59}
+    - name: Sonic Level Spritesheet Edited_119
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 219
+        width: 64
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 16}
+        - {x: -32, y: -16}
+        - {x: 32, y: -16}
+        - {x: 32, y: 16}
+    - name: Sonic Level Spritesheet Edited_120
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 219
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Sonic Level Spritesheet Edited_121
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 219
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Sonic Level Spritesheet Edited_122
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 210
+        width: 46
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20, y: 23.5}
+        - {x: -23, y: 19.5}
+        - {x: -23, y: -23.5}
+        - {x: 23, y: -23.5}
+        - {x: 23, y: 17.5}
+        - {x: 16, y: 23.5}
+    - name: Sonic Level Spritesheet Edited_123
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 178
+        width: 64
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 16}
+        - {x: -32, y: -16}
+        - {x: 31, y: -16}
+        - {x: 32, y: -15}
+        - {x: 32, y: 16}
+    - name: Sonic Level Spritesheet Edited_124
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 206
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Sonic Level Spritesheet Edited_125
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 206
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Sonic Level Spritesheet Edited_126
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 143
+        width: 64
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Sonic Level Spritesheet Edited_127
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 62
+        width: 142
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -71, y: 71}
+        - {x: -71, y: -71}
+        - {x: 71, y: -71}
+        - {x: 71, y: 71}
+    - name: Sonic Level Spritesheet Edited_128
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 2
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -64, y: 64}
+        - {x: -64, y: -64}
+        - {x: 64, y: -64}
+        - {x: 64, y: 64}
+    - name: Sonic Level Spritesheet Edited_129
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 2
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -64, y: 64}
+        - {x: -64, y: -64}
+        - {x: 64, y: -64}
+        - {x: 64, y: 64}
+    - name: Sonic Level Spritesheet Edited_130
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 2
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -64, y: 64}
+        - {x: -64, y: -64}
+        - {x: 64, y: -64}
+        - {x: 64, y: 64}
+    - name: Sonic Level Spritesheet Edited_131
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 106
+        width: 64
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
