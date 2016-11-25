@@ -96,7 +96,7 @@ public class Sonic : MonoBehaviour
                         playerRigidbody.drag = playerNormalDrag;
                     }
 
-                    //Charged Running State
+                    //Charged Run State
                     if (state == State.IsCharging)
                     {
                         state = State.IsChargedRunning;
@@ -124,7 +124,9 @@ public class Sonic : MonoBehaviour
             //Jump State
             if (Input.GetButtonDown("Jump"))
             {
-                state = State.IsJumping;
+                if (absoluteMagnitude < chargedRunVelocityThreshold)
+                    state = State.IsJumping;
+
                 Jump();
                 isGrounded = false;
                 AudioManager.Instance.PlayOneShot(AudioManager.AudioClipsEnum.Jump);
@@ -144,7 +146,7 @@ public class Sonic : MonoBehaviour
         playerAnimator.SetBool("IsDucking", state == State.IsDucking);
         playerAnimator.SetBool("IsCharging", state == State.IsCharging);
         playerAnimator.SetBool("IsChargedRunning", state == State.IsChargedRunning);
-        playerAnimator.SetBool("IsDying", state == State.IsDying);
+        //playerAnimator.SetBool("IsDying", state == State.IsDying);
     }
 
 

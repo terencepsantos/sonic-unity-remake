@@ -6,12 +6,7 @@ public class CamPlayer : MonoBehaviour
     public GameObject Target;
 
 
-	void Start () 
-    {
-	
-	}
-	
-	void Update () 
+	void LateUpdate () 
     {
         transform.position = new Vector3(
             Target.transform.position.x,
