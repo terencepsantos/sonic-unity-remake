@@ -7,6 +7,8 @@ public class Sonic : MonoBehaviour
     private Animator playerAnimator;
     private Rigidbody2D playerRigidbody;
 
+    private Coroutine audioBreakOut;
+
     private float acceleration;
     private float velocityX;
     private float absoluteMagnitude;
@@ -35,6 +37,7 @@ public class Sonic : MonoBehaviour
         IsDucking,
         IsCharging,
         IsChargedRunning,
+        IsBreaking,
         IsDying
     }
     public State state { get; private set; }
@@ -47,6 +50,8 @@ public class Sonic : MonoBehaviour
     {
         playerAnimator = GetComponent<Animator>();
         playerRigidbody = GetComponent<Rigidbody2D>();
+
+        gameObject.tag = "Player";
     }
 
     void Start()
@@ -146,21 +151,51 @@ public class Sonic : MonoBehaviour
         playerAnimator.SetBool("IsDucking", state == State.IsDucking);
         playerAnimator.SetBool("IsCharging", state == State.IsCharging);
         playerAnimator.SetBool("IsChargedRunning", state == State.IsChargedRunning);
+        playerAnimator.SetBool("IsBreaking", state == State.IsBreaking);
         //playerAnimator.SetBool("IsDying", state == State.IsDying);
     }
 
 
     void FixedUpdate()
     {
-        //if (state != State.IsChargedRunning)
-        //    playerRigidbody.AddForce(Vector2.right * velocityX * acceleration);
-        //else
-        //    playerRigidbody.AddForce(Vector2.right * acceleration);
+        //playerRigidbody.AddForce(Vector2.right * velocityX * acceleration);
+        playerRigidbody.AddForce(transform.right * velocityX * acceleration);
 
-        playerRigidbody.AddForce(Vector2.right * velocityX * acceleration);
+        //if (playerRigidbody.velocity.x != 0)
+        //    Debug.Log("velocity: " + playerRigidbody.velocity.x);
 
-        if (playerRigidbody.velocity.x != 0)
-        Debug.Log("velocity: " + playerRigidbody.velocity.x);
+        //Breaking - State
+        float normvelx = Mathf.Clamp(playerRigidbody.velocity.x, -1, 1);
+        float absdiffx = Mathf.Abs(normvelx - velocityX);
+        //playerAnimator.SetFloat("Break", absdiffx);
+
+        if (absdiffx > 1 && audioBreakOut == null)
+            audioBreakOut = StartCoroutine(OneShotBreak());
+
+        //Check Ground
+        RaycastHit2D hit;
+        hit = Physics2D.Raycast(transform.position, -transform.up);
+
+        if (hit.collider != null) //Grounded
+        {
+            //transform.up = hit.normal;
+            transform.up = Vector3.Lerp(transform.up, hit.normal, Time.fixedDeltaTime * 10);
+        }
+        else //In the air
+        {
+            //transform.up = Vector3.up;
+            transform.up = Vector3.Lerp(transform.up, Vector3.up, Time.fixedDeltaTime * 10);
+        }
+
+    }
+
+
+    private IEnumerator OneShotBreak()
+    {
+        AudioManager.Instance.PlayOneShot(AudioManager.AudioClipsEnum.Break);
+        yield return new WaitForSeconds(1);
+        StopCoroutine(audioBreakOut);
+        audioBreakOut = null;
     }
 
 
@@ -195,6 +230,15 @@ public class Sonic : MonoBehaviour
         if (coll.gameObject.layer == 8)
         {
             isGrounded = true;
+        }
+    }
+
+
+    void OnTriggerEnter2D(Collider2D coll)
+    {
+        if (coll.CompareTag("Ring"))
+        {
+            //TODO: Increase Ring count in HUD
         }
     }
 }

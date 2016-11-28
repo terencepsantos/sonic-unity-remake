@@ -327,14 +327,11 @@ TextureImporter:
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spritePixelsToUnits: 30
   alphaIsTransparency: 1
-  spriteTessellationDetail: -1
   textureType: 8
   buildTargetSettings: []
   spriteSheet:
-    serializedVersion: 2
     sprites:
-    - serializedVersion: 2
-      name: Sonic Spritesheet Edited_0
+    - name: Sonic Spritesheet Edited_0
       rect:
         serializedVersion: 2
         x: 1
@@ -345,9 +342,7 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Sonic Spritesheet Edited_1
+    - name: Sonic Spritesheet Edited_1
       rect:
         serializedVersion: 2
         x: 31
@@ -358,9 +353,7 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Sonic Spritesheet Edited_2
+    - name: Sonic Spritesheet Edited_2
       rect:
         serializedVersion: 2
         x: 62
@@ -370,10 +363,16 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Sonic Spritesheet Edited_3
+      outline:
+      - - {x: -14, y: 20}
+        - {x: -16, y: 18}
+        - {x: -16, y: 0}
+        - {x: -14, y: -9}
+        - {x: -8, y: -19}
+        - {x: -7, y: -20}
+        - {x: 16, y: -20}
+        - {x: 16, y: 20}
+    - name: Sonic Spritesheet Edited_3
       rect:
         serializedVersion: 2
         x: 95
@@ -383,10 +382,16 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Sonic Spritesheet Edited_4
+      outline:
+      - - {x: -14, y: 20}
+        - {x: -16, y: 18}
+        - {x: -16, y: 0}
+        - {x: -14, y: -9}
+        - {x: -8, y: -19}
+        - {x: -7, y: -20}
+        - {x: 16, y: -20}
+        - {x: 16, y: 20}
+    - name: Sonic Spritesheet Edited_4
       rect:
         serializedVersion: 2
         x: 128
@@ -396,10 +401,14 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Sonic Spritesheet Edited_5
+      outline:
+      - - {x: -16, y: 20}
+        - {x: -16, y: -12}
+        - {x: -11, y: -20}
+        - {x: 16, y: -20}
+        - {x: 16, y: 3}
+        - {x: 9, y: 20}
+    - name: Sonic Spritesheet Edited_5
       rect:
         serializedVersion: 2
         x: 161
@@ -409,10 +418,13 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Sonic Spritesheet Edited_6
+      outline:
+      - - {x: -16, y: 20}
+        - {x: -16, y: -8}
+        - {x: -14, y: -20}
+        - {x: 16, y: -20}
+        - {x: 16, y: 20}
+    - name: Sonic Spritesheet Edited_6
       rect:
         serializedVersion: 2
         x: 194
@@ -422,10 +434,13 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Sonic Spritesheet Edited_7
+      outline:
+      - - {x: -16, y: 20}
+        - {x: -16, y: -12}
+        - {x: -12, y: -20}
+        - {x: 16, y: -20}
+        - {x: 16, y: 20}
+    - name: Sonic Spritesheet Edited_7
       rect:
         serializedVersion: 2
         x: 227
@@ -435,10 +450,14 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Sonic Spritesheet Edited_8
+      outline:
+      - - {x: -16.5, y: 20}
+        - {x: -16.5, y: -4}
+        - {x: -7.5, y: -20}
+        - {x: 16.5, y: -20}
+        - {x: 16.5, y: 15}
+        - {x: 5.5, y: 20}
+    - name: Sonic Spritesheet Edited_8
       rect:
         serializedVersion: 2
         x: 261
@@ -448,10 +467,14 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Sonic Spritesheet Edited_9
+      outline:
+      - - {x: -18, y: 20}
+        - {x: -18, y: -6}
+        - {x: -9, y: -20}
+        - {x: 18, y: -20}
+        - {x: 18, y: 10}
+        - {x: 4, y: 20}
+    - name: Sonic Spritesheet Edited_9
       rect:
         serializedVersion: 2
         x: 298
@@ -461,10 +484,16 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Sonic Spritesheet Edited_10
+      outline:
+      - - {x: -14, y: 20}
+        - {x: -16, y: 18}
+        - {x: -16, y: 0}
+        - {x: -14, y: -9}
+        - {x: -8, y: -19}
+        - {x: -7, y: -20}
+        - {x: 16, y: -20}
+        - {x: 16, y: 20}
+    - name: Sonic Spritesheet Edited_10
       rect:
         serializedVersion: 2
         x: 331
@@ -474,10 +503,14 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Sonic Spritesheet Edited_11
+      outline:
+      - - {x: -16, y: 20}
+        - {x: -16, y: -12}
+        - {x: -11, y: -20}
+        - {x: 16, y: -20}
+        - {x: 16, y: 3}
+        - {x: 9, y: 20}
+    - name: Sonic Spritesheet Edited_11
       rect:
         serializedVersion: 2
         x: 364
@@ -488,9 +521,7 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Sonic Spritesheet Edited_12
+    - name: Sonic Spritesheet Edited_12
       rect:
         serializedVersion: 2
         x: 392
@@ -501,9 +532,7 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Sonic Spritesheet Edited_13
+    - name: Sonic Spritesheet Edited_13
       rect:
         serializedVersion: 2
         x: 420
@@ -513,10 +542,15 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Sonic Spritesheet Edited_14
+      outline:
+      - - {x: -8, y: 20}
+        - {x: -16, y: 17}
+        - {x: -16, y: -3}
+        - {x: -9, y: -20}
+        - {x: 16, y: -20}
+        - {x: 16, y: 14}
+        - {x: 10, y: 20}
+    - name: Sonic Spritesheet Edited_14
       rect:
         serializedVersion: 2
         x: 453
@@ -526,10 +560,16 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Sonic Spritesheet Edited_15
+      outline:
+      - - {x: 3.5, y: 20}
+        - {x: -10.5, y: 20}
+        - {x: -17.5, y: 11}
+        - {x: -17.5, y: -12}
+        - {x: -11.5, y: -20}
+        - {x: 17.5, y: -20}
+        - {x: 17.5, y: 1}
+        - {x: 14.5, y: 13}
+    - name: Sonic Spritesheet Edited_15
       rect:
         serializedVersion: 2
         x: 489
@@ -540,9 +580,7 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Sonic Spritesheet Edited_16
+    - name: Sonic Spritesheet Edited_16
       rect:
         serializedVersion: 2
         x: 514
@@ -553,9 +591,7 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Sonic Spritesheet Edited_17
+    - name: Sonic Spritesheet Edited_17
       rect:
         serializedVersion: 2
         x: 1
@@ -565,10 +601,15 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Sonic Spritesheet Edited_18
+      outline:
+      - - {x: -19.5, y: 20}
+        - {x: -19.5, y: -20}
+        - {x: 9.5, y: -20}
+        - {x: 12.5, y: -19}
+        - {x: 19.5, y: -15}
+        - {x: 19.5, y: 5}
+        - {x: 12.5, y: 20}
+    - name: Sonic Spritesheet Edited_18
       rect:
         serializedVersion: 2
         x: 41
@@ -578,10 +619,14 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Sonic Spritesheet Edited_19
+      outline:
+      - - {x: -19.5, y: 20}
+        - {x: -19.5, y: -20}
+        - {x: 16.5, y: -20}
+        - {x: 19.5, y: -17}
+        - {x: 19.5, y: -2}
+        - {x: 10.5, y: 20}
+    - name: Sonic Spritesheet Edited_19
       rect:
         serializedVersion: 2
         x: 81
@@ -592,9 +637,7 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Sonic Spritesheet Edited_20
+    - name: Sonic Spritesheet Edited_20
       rect:
         serializedVersion: 2
         x: 108
@@ -605,9 +648,7 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Sonic Spritesheet Edited_21
+    - name: Sonic Spritesheet Edited_21
       rect:
         serializedVersion: 2
         x: 137
@@ -617,10 +658,15 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Sonic Spritesheet Edited_22
+      outline:
+      - - {x: -15.5, y: 20}
+        - {x: -18.5, y: 15}
+        - {x: -18.5, y: -20}
+        - {x: 12.5, y: -20}
+        - {x: 18.5, y: -17}
+        - {x: 18.5, y: 18}
+        - {x: 17.5, y: 20}
+    - name: Sonic Spritesheet Edited_22
       rect:
         serializedVersion: 2
         x: 175
@@ -630,10 +676,13 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Sonic Spritesheet Edited_23
+      outline:
+      - - {x: -14, y: 20}
+        - {x: -19, y: 13}
+        - {x: -19, y: -20}
+        - {x: 19, y: -20}
+        - {x: 19, y: 20}
+    - name: Sonic Spritesheet Edited_23
       rect:
         serializedVersion: 2
         x: 214
@@ -644,9 +693,7 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Sonic Spritesheet Edited_24
+    - name: Sonic Spritesheet Edited_24
       rect:
         serializedVersion: 2
         x: 241
@@ -657,9 +704,7 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Sonic Spritesheet Edited_25
+    - name: Sonic Spritesheet Edited_25
       rect:
         serializedVersion: 2
         x: 268
@@ -669,10 +714,20 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Sonic Spritesheet Edited_26
+      outline:
+      - - {x: 7, y: -20}
+        - {x: 10, y: -20}
+        - {x: 16, y: -13}
+        - {x: 16, y: 18}
+        - {x: -15, y: 18}
+        - {x: -16, y: 8}
+        - {x: -16, y: -17}
+        - {x: -12, y: -20}
+        - {x: 4, y: -20}
+        - {x: 2, y: -15}
+        - {x: -4, y: -14}
+        - {x: 0, y: -13}
+    - name: Sonic Spritesheet Edited_26
       rect:
         serializedVersion: 2
         x: 301
@@ -682,10 +737,18 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Sonic Spritesheet Edited_27
+      outline:
+      - - {x: -9, y: 18}
+        - {x: -16, y: 13}
+        - {x: -16, y: -17}
+        - {x: -12, y: -18}
+        - {x: -11, y: -16}
+        - {x: -11, y: -12}
+        - {x: -11, y: -20}
+        - {x: 13, y: -20}
+        - {x: 16, y: -13}
+        - {x: 16, y: 18}
+    - name: Sonic Spritesheet Edited_27
       rect:
         serializedVersion: 2
         x: 334
@@ -696,9 +759,7 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Sonic Spritesheet Edited_28
+    - name: Sonic Spritesheet Edited_28
       rect:
         serializedVersion: 2
         x: 366
@@ -708,10 +769,22 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Sonic Spritesheet Edited_29
+      outline:
+      - - {x: 7, y: -10}
+        - {x: 7, y: -9}
+        - {x: 16, y: -3}
+        - {x: 16, y: 15}
+        - {x: 10, y: 18}
+        - {x: -5, y: 18}
+        - {x: -12, y: 16}
+        - {x: -16, y: 0}
+        - {x: -16, y: -19}
+        - {x: -14, y: -20}
+        - {x: 11, y: -20}
+        - {x: 16, y: -13}
+        - {x: 15, y: -7}
+        - {x: 12, y: -6}
+    - name: Sonic Spritesheet Edited_29
       rect:
         serializedVersion: 2
         x: 403
@@ -722,9 +795,7 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Sonic Spritesheet Edited_30
+    - name: Sonic Spritesheet Edited_30
       rect:
         serializedVersion: 2
         x: 435
@@ -735,9 +806,7 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Sonic Spritesheet Edited_31
+    - name: Sonic Spritesheet Edited_31
       rect:
         serializedVersion: 2
         x: 467
@@ -748,9 +817,7 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Sonic Spritesheet Edited_32
+    - name: Sonic Spritesheet Edited_32
       rect:
         serializedVersion: 2
         x: 497
@@ -761,9 +828,7 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Sonic Spritesheet Edited_33
+    - name: Sonic Spritesheet Edited_33
       rect:
         serializedVersion: 2
         x: 401
@@ -774,9 +839,7 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Sonic Spritesheet Edited_34
+    - name: Sonic Spritesheet Edited_34
       rect:
         serializedVersion: 2
         x: 433
@@ -787,9 +850,7 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Sonic Spritesheet Edited_36
+    - name: Sonic Spritesheet Edited_36
       rect:
         serializedVersion: 2
         x: 465
@@ -800,9 +861,7 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Sonic Spritesheet Edited_37
+    - name: Sonic Spritesheet Edited_37
       rect:
         serializedVersion: 2
         x: 506
@@ -813,9 +872,7 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Sonic Spritesheet Edited_41
+    - name: Sonic Spritesheet Edited_41
       rect:
         serializedVersion: 2
         x: 1
@@ -825,10 +882,16 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Sonic Spritesheet Edited_42
+      outline:
+      - - {x: -16, y: 21.5}
+        - {x: -20, y: 19.5}
+        - {x: -20, y: 2.5}
+        - {x: -8, y: -21.5}
+        - {x: 11, y: -21.5}
+        - {x: 20, y: -10.5}
+        - {x: 20, y: 18.5}
+        - {x: 13, y: 21.5}
+    - name: Sonic Spritesheet Edited_42
       rect:
         serializedVersion: 2
         x: 42
@@ -838,10 +901,17 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Sonic Spritesheet Edited_43
+      outline:
+      - - {x: -19, y: 20}
+        - {x: -22, y: 14}
+        - {x: -22, y: 4}
+        - {x: -17, y: -3}
+        - {x: -8, y: -20}
+        - {x: 10, y: -20}
+        - {x: 22, y: -5}
+        - {x: 22, y: 14}
+        - {x: 4, y: 20}
+    - name: Sonic Spritesheet Edited_43
       rect:
         serializedVersion: 2
         x: 87
@@ -851,10 +921,17 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Sonic Spritesheet Edited_44
+      outline:
+      - - {x: 2, y: 19}
+        - {x: -14, y: 19}
+        - {x: -19, y: 13}
+        - {x: -19, y: -7}
+        - {x: 0, y: -19}
+        - {x: 13, y: -19}
+        - {x: 19, y: -12}
+        - {x: 19, y: 2}
+        - {x: 12, y: 14}
+    - name: Sonic Spritesheet Edited_44
       rect:
         serializedVersion: 2
         x: 126
@@ -864,10 +941,17 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Sonic Spritesheet Edited_45
+      outline:
+      - - {x: -14.5, y: 20}
+        - {x: -20.5, y: 15}
+        - {x: -20.5, y: -11}
+        - {x: -9.5, y: -20}
+        - {x: 12.5, y: -20}
+        - {x: 17.5, y: -18}
+        - {x: 20.5, y: -14}
+        - {x: 20.5, y: 10}
+        - {x: 9.5, y: 20}
+    - name: Sonic Spritesheet Edited_45
       rect:
         serializedVersion: 2
         x: 168
@@ -877,10 +961,14 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Sonic Spritesheet Edited_46
+      outline:
+      - - {x: -19.5, y: -7.5}
+        - {x: -13.5, y: -22.5}
+        - {x: 19.5, y: -22.5}
+        - {x: 19.5, y: 22.5}
+        - {x: -14.5, y: 22.5}
+        - {x: -19.5, y: 20.5}
+    - name: Sonic Spritesheet Edited_46
       rect:
         serializedVersion: 2
         x: 208
@@ -890,10 +978,23 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Sonic Spritesheet Edited_47
+      outline:
+      - - {x: 19, y: 19}
+        - {x: 13, y: 12}
+        - {x: 13, y: 5}
+        - {x: 13, y: 9}
+        - {x: 10, y: 13}
+        - {x: 1, y: 22}
+        - {x: -12, y: 22}
+        - {x: -21, y: 17}
+        - {x: -21, y: -3}
+        - {x: -20, y: -6}
+        - {x: -5, y: -22}
+        - {x: 1, y: -22}
+        - {x: 3, y: -19}
+        - {x: 21, y: -8}
+        - {x: 21, y: 14}
+    - name: Sonic Spritesheet Edited_47
       rect:
         serializedVersion: 2
         x: 251
@@ -903,10 +1004,16 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Sonic Spritesheet Edited_48
+      outline:
+      - - {x: -13.5, y: 19}
+        - {x: -18.5, y: 16}
+        - {x: -18.5, y: -5}
+        - {x: 3.5, y: -19}
+        - {x: 14.5, y: -19}
+        - {x: 18.5, y: -14}
+        - {x: 18.5, y: 8}
+        - {x: 9.5, y: 19}
+    - name: Sonic Spritesheet Edited_48
       rect:
         serializedVersion: 2
         x: 289
@@ -916,10 +1023,15 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Sonic Spritesheet Edited_49
+      outline:
+      - - {x: -20, y: 17.5}
+        - {x: -20, y: -1.5}
+        - {x: -4, y: -17.5}
+        - {x: 16, y: -17.5}
+        - {x: 20, y: -16.5}
+        - {x: 20, y: 5.5}
+        - {x: 12, y: 17.5}
+    - name: Sonic Spritesheet Edited_49
       rect:
         serializedVersion: 2
         x: 330
@@ -929,10 +1041,21 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Sonic Spritesheet Edited_50
+      outline:
+      - - {x: 4, y: -13}
+        - {x: 10, y: -9}
+        - {x: 18, y: -9}
+        - {x: 18, y: 14}
+        - {x: 8, y: 20}
+        - {x: -15, y: 20}
+        - {x: -18, y: 17}
+        - {x: -18, y: -1}
+        - {x: -11, y: -20}
+        - {x: 10, y: -20}
+        - {x: 16, y: -13}
+        - {x: 15, y: -10}
+        - {x: 11, y: -9}
+    - name: Sonic Spritesheet Edited_50
       rect:
         serializedVersion: 2
         x: 367
@@ -942,10 +1065,14 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Sonic Spritesheet Edited_51
+      outline:
+      - - {x: -13, y: 20}
+        - {x: -16, y: 18}
+        - {x: -16, y: -20}
+        - {x: 16, y: -20}
+        - {x: 16, y: 17}
+        - {x: 11, y: 20}
+    - name: Sonic Spritesheet Edited_51
       rect:
         serializedVersion: 2
         x: 400
@@ -955,10 +1082,17 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Sonic Spritesheet Edited_52
+      outline:
+      - - {x: -8.5, y: 20}
+        - {x: -17.5, y: 14}
+        - {x: -17.5, y: 1}
+        - {x: -10.5, y: -19}
+        - {x: -6.5, y: -20}
+        - {x: 14.5, y: -20}
+        - {x: 17.5, y: -18}
+        - {x: 17.5, y: 9}
+        - {x: 13.5, y: 20}
+    - name: Sonic Spritesheet Edited_52
       rect:
         serializedVersion: 2
         x: 436
@@ -968,10 +1102,23 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Sonic Spritesheet Edited_53
+      outline:
+      - - {x: 12, y: 5}
+        - {x: 10, y: 3}
+        - {x: 10, y: -2}
+        - {x: 10, y: 1}
+        - {x: 8, y: 3}
+        - {x: 11, y: 7}
+        - {x: 11, y: 13}
+        - {x: 6, y: 20}
+        - {x: -8, y: 20}
+        - {x: -16, y: 16}
+        - {x: -16, y: -9}
+        - {x: -10, y: -20}
+        - {x: 11, y: -20}
+        - {x: 16, y: -18}
+        - {x: 16, y: 8}
+    - name: Sonic Spritesheet Edited_53
       rect:
         serializedVersion: 2
         x: 1
@@ -982,9 +1129,7 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Sonic Spritesheet Edited_54
+    - name: Sonic Spritesheet Edited_54
       rect:
         serializedVersion: 2
         x: 32
@@ -995,9 +1140,7 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Sonic Spritesheet Edited_55
+    - name: Sonic Spritesheet Edited_55
       rect:
         serializedVersion: 2
         x: 63
@@ -1008,9 +1151,7 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Sonic Spritesheet Edited_56
+    - name: Sonic Spritesheet Edited_56
       rect:
         serializedVersion: 2
         x: 94
@@ -1021,9 +1162,7 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Sonic Spritesheet Edited_57
+    - name: Sonic Spritesheet Edited_57
       rect:
         serializedVersion: 2
         x: 126
@@ -1034,9 +1173,7 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Sonic Spritesheet Edited_58
+    - name: Sonic Spritesheet Edited_58
       rect:
         serializedVersion: 2
         x: 158
@@ -1047,9 +1184,7 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Sonic Spritesheet Edited_59
+    - name: Sonic Spritesheet Edited_59
       rect:
         serializedVersion: 2
         x: 189
@@ -1060,9 +1195,7 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Sonic Spritesheet Edited_60
+    - name: Sonic Spritesheet Edited_60
       rect:
         serializedVersion: 2
         x: 219
@@ -1073,9 +1206,7 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Sonic Spritesheet Edited_61
+    - name: Sonic Spritesheet Edited_61
       rect:
         serializedVersion: 2
         x: 249
@@ -1086,9 +1217,7 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Sonic Spritesheet Edited_62
+    - name: Sonic Spritesheet Edited_62
       rect:
         serializedVersion: 2
         x: 279
@@ -1099,9 +1228,7 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Sonic Spritesheet Edited_63
+    - name: Sonic Spritesheet Edited_63
       rect:
         serializedVersion: 2
         x: 309
@@ -1112,9 +1239,7 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Sonic Spritesheet Edited_64
+    - name: Sonic Spritesheet Edited_64
       rect:
         serializedVersion: 2
         x: 339
@@ -1125,9 +1250,7 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Sonic Spritesheet Edited_65
+    - name: Sonic Spritesheet Edited_65
       rect:
         serializedVersion: 2
         x: 364
@@ -1138,9 +1261,7 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Sonic Spritesheet Edited_66
+    - name: Sonic Spritesheet Edited_66
       rect:
         serializedVersion: 2
         x: 394
@@ -1151,9 +1272,7 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Sonic Spritesheet Edited_67
+    - name: Sonic Spritesheet Edited_67
       rect:
         serializedVersion: 2
         x: 425
@@ -1164,9 +1283,7 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Sonic Spritesheet Edited_68
+    - name: Sonic Spritesheet Edited_68
       rect:
         serializedVersion: 2
         x: 1
@@ -1177,9 +1294,7 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Sonic Spritesheet Edited_69
+    - name: Sonic Spritesheet Edited_69
       rect:
         serializedVersion: 2
         x: 30
@@ -1190,9 +1305,7 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Sonic Spritesheet Edited_70
+    - name: Sonic Spritesheet Edited_70
       rect:
         serializedVersion: 2
         x: 58
@@ -1203,9 +1316,7 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Sonic Spritesheet Edited_71
+    - name: Sonic Spritesheet Edited_71
       rect:
         serializedVersion: 2
         x: 85
@@ -1216,9 +1327,7 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Sonic Spritesheet Edited_72
+    - name: Sonic Spritesheet Edited_72
       rect:
         serializedVersion: 2
         x: 114
@@ -1229,9 +1338,7 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Sonic Spritesheet Edited_73
+    - name: Sonic Spritesheet Edited_73
       rect:
         serializedVersion: 2
         x: 141
@@ -1242,9 +1349,7 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Sonic Spritesheet Edited_74
+    - name: Sonic Spritesheet Edited_74
       rect:
         serializedVersion: 2
         x: 169
@@ -1255,9 +1360,7 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Sonic Spritesheet Edited_75
+    - name: Sonic Spritesheet Edited_75
       rect:
         serializedVersion: 2
         x: 201
@@ -1268,9 +1371,7 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Sonic Spritesheet Edited_76
+    - name: Sonic Spritesheet Edited_76
       rect:
         serializedVersion: 2
         x: 224
@@ -1281,9 +1382,7 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Sonic Spritesheet Edited_77
+    - name: Sonic Spritesheet Edited_77
       rect:
         serializedVersion: 2
         x: 253
@@ -1294,9 +1393,7 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Sonic Spritesheet Edited_78
+    - name: Sonic Spritesheet Edited_78
       rect:
         serializedVersion: 2
         x: 282
@@ -1307,9 +1404,7 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Sonic Spritesheet Edited_79
+    - name: Sonic Spritesheet Edited_79
       rect:
         serializedVersion: 2
         x: 307
@@ -1320,9 +1415,7 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Sonic Spritesheet Edited_80
+    - name: Sonic Spritesheet Edited_80
       rect:
         serializedVersion: 2
         x: 332
@@ -1333,9 +1426,7 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Sonic Spritesheet Edited_81
+    - name: Sonic Spritesheet Edited_81
       rect:
         serializedVersion: 2
         x: 355
@@ -1346,9 +1437,7 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Sonic Spritesheet Edited_82
+    - name: Sonic Spritesheet Edited_82
       rect:
         serializedVersion: 2
         x: 382
@@ -1359,9 +1448,7 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Sonic Spritesheet Edited_83
+    - name: Sonic Spritesheet Edited_83
       rect:
         serializedVersion: 2
         x: 410
@@ -1372,9 +1459,7 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Sonic Spritesheet Edited_84
+    - name: Sonic Spritesheet Edited_84
       rect:
         serializedVersion: 2
         x: 439
@@ -1385,9 +1470,7 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Sonic Spritesheet Edited_85
+    - name: Sonic Spritesheet Edited_85
       rect:
         serializedVersion: 2
         x: 470
@@ -1398,9 +1481,7 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Sonic Spritesheet Edited_86
+    - name: Sonic Spritesheet Edited_86
       rect:
         serializedVersion: 2
         x: 498
@@ -1411,9 +1492,7 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Sonic Spritesheet Edited_87
+    - name: Sonic Spritesheet Edited_87
       rect:
         serializedVersion: 2
         x: 1
@@ -1424,9 +1503,7 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Sonic Spritesheet Edited_88
+    - name: Sonic Spritesheet Edited_88
       rect:
         serializedVersion: 2
         x: 26
@@ -1437,9 +1514,7 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Sonic Spritesheet Edited_89
+    - name: Sonic Spritesheet Edited_89
       rect:
         serializedVersion: 2
         x: 50
@@ -1450,9 +1525,7 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Sonic Spritesheet Edited_90
+    - name: Sonic Spritesheet Edited_90
       rect:
         serializedVersion: 2
         x: 79
@@ -1463,9 +1536,7 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Sonic Spritesheet Edited_91
+    - name: Sonic Spritesheet Edited_91
       rect:
         serializedVersion: 2
         x: 109
@@ -1476,9 +1547,7 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Sonic Spritesheet Edited_92
+    - name: Sonic Spritesheet Edited_92
       rect:
         serializedVersion: 2
         x: 138
@@ -1489,9 +1558,7 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Sonic Spritesheet Edited_93
+    - name: Sonic Spritesheet Edited_93
       rect:
         serializedVersion: 2
         x: 168
@@ -1502,9 +1569,7 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Sonic Spritesheet Edited_94
+    - name: Sonic Spritesheet Edited_94
       rect:
         serializedVersion: 2
         x: 191
@@ -1515,9 +1580,7 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Sonic Spritesheet Edited_95
+    - name: Sonic Spritesheet Edited_95
       rect:
         serializedVersion: 2
         x: 216
@@ -1528,9 +1591,7 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Sonic Spritesheet Edited_96
+    - name: Sonic Spritesheet Edited_96
       rect:
         serializedVersion: 2
         x: 245
@@ -1541,9 +1602,7 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Sonic Spritesheet Edited_97
+    - name: Sonic Spritesheet Edited_97
       rect:
         serializedVersion: 2
         x: 270
@@ -1554,9 +1613,7 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Sonic Spritesheet Edited_98
+    - name: Sonic Spritesheet Edited_98
       rect:
         serializedVersion: 2
         x: 295
@@ -1567,9 +1624,7 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Sonic Spritesheet Edited_99
+    - name: Sonic Spritesheet Edited_99
       rect:
         serializedVersion: 2
         x: 325
@@ -1580,9 +1635,7 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Sonic Spritesheet Edited_100
+    - name: Sonic Spritesheet Edited_100
       rect:
         serializedVersion: 2
         x: 356
@@ -1593,9 +1646,7 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Sonic Spritesheet Edited_101
+    - name: Sonic Spritesheet Edited_101
       rect:
         serializedVersion: 2
         x: 381
@@ -1606,9 +1657,7 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Sonic Spritesheet Edited_102
+    - name: Sonic Spritesheet Edited_102
       rect:
         serializedVersion: 2
         x: 405
@@ -1619,9 +1668,7 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Sonic Spritesheet Edited_103
+    - name: Sonic Spritesheet Edited_103
       rect:
         serializedVersion: 2
         x: 436
@@ -1631,10 +1678,17 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Sonic Spritesheet Edited_104
+      outline:
+      - - {x: 11.5, y: 14.5}
+        - {x: 7.5, y: 20.5}
+        - {x: -14.5, y: 20.5}
+        - {x: -16.5, y: 19.5}
+        - {x: -16.5, y: -20.5}
+        - {x: 0.5, y: -20.5}
+        - {x: 16.5, y: -16.5}
+        - {x: 16.5, y: 2.5}
+        - {x: 13.5, y: 4.5}
+    - name: Sonic Spritesheet Edited_104
       rect:
         serializedVersion: 2
         x: 1
@@ -1645,9 +1699,7 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Sonic Spritesheet Edited_105
+    - name: Sonic Spritesheet Edited_105
       rect:
         serializedVersion: 2
         x: 31
@@ -1658,9 +1710,7 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Sonic Spritesheet Edited_106
+    - name: Sonic Spritesheet Edited_106
       rect:
         serializedVersion: 2
         x: 58
@@ -1671,9 +1721,7 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Sonic Spritesheet Edited_107
+    - name: Sonic Spritesheet Edited_107
       rect:
         serializedVersion: 2
         x: 87
@@ -1684,9 +1732,7 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Sonic Spritesheet Edited_108
+    - name: Sonic Spritesheet Edited_108
       rect:
         serializedVersion: 2
         x: 120
@@ -1697,9 +1743,7 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Sonic Spritesheet Edited_109
+    - name: Sonic Spritesheet Edited_109
       rect:
         serializedVersion: 2
         x: 157
@@ -1710,9 +1754,7 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Sonic Spritesheet Edited_110
+    - name: Sonic Spritesheet Edited_110
       rect:
         serializedVersion: 2
         x: 194
@@ -1722,10 +1764,16 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Sonic Spritesheet Edited_111
+      outline:
+      - - {x: -16, y: -13}
+        - {x: -5, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 7}
+        - {x: 15, y: 15}
+        - {x: 12, y: 16}
+        - {x: -11, y: 16}
+        - {x: -16, y: 11}
+    - name: Sonic Spritesheet Edited_111
       rect:
         serializedVersion: 2
         x: 227
@@ -1736,9 +1784,7 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Sonic Spritesheet Edited_112
+    - name: Sonic Spritesheet Edited_112
       rect:
         serializedVersion: 2
         x: 260
@@ -1749,9 +1795,7 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Sonic Spritesheet Edited_113
+    - name: Sonic Spritesheet Edited_113
       rect:
         serializedVersion: 2
         x: 293
@@ -1762,9 +1806,7 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Sonic Spritesheet Edited_114
+    - name: Sonic Spritesheet Edited_114
       rect:
         serializedVersion: 2
         x: 328
@@ -1775,9 +1817,7 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Sonic Spritesheet Edited_115
+    - name: Sonic Spritesheet Edited_115
       rect:
         serializedVersion: 2
         x: 366
@@ -1788,9 +1828,7 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Sonic Spritesheet Edited_116
+    - name: Sonic Spritesheet Edited_116
       rect:
         serializedVersion: 2
         x: 399
@@ -1801,9 +1839,7 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Sonic Spritesheet Edited_117
+    - name: Sonic Spritesheet Edited_117
       rect:
         serializedVersion: 2
         x: 424
@@ -1814,9 +1850,7 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Sonic Spritesheet Edited_118
+    - name: Sonic Spritesheet Edited_118
       rect:
         serializedVersion: 2
         x: 457
@@ -1827,9 +1861,7 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Sonic Spritesheet Edited_119
+    - name: Sonic Spritesheet Edited_119
       rect:
         serializedVersion: 2
         x: 1
@@ -1839,10 +1871,20 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Sonic Spritesheet Edited_120
+      outline:
+      - - {x: -3, y: 19}
+        - {x: -4, y: 16}
+        - {x: -4, y: 15}
+        - {x: -13, y: 11}
+        - {x: -18, y: 8}
+        - {x: -19, y: 2}
+        - {x: -19, y: -13}
+        - {x: -8, y: -19}
+        - {x: 16, y: -19}
+        - {x: 19, y: -11}
+        - {x: 19, y: 14}
+        - {x: 16, y: 19}
+    - name: Sonic Spritesheet Edited_120
       rect:
         serializedVersion: 2
         x: 40
@@ -1853,9 +1895,7 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Sonic Spritesheet Edited_121
+    - name: Sonic Spritesheet Edited_121
       rect:
         serializedVersion: 2
         x: 72
@@ -1866,9 +1906,7 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Sonic Spritesheet Edited_122
+    - name: Sonic Spritesheet Edited_122
       rect:
         serializedVersion: 2
         x: 102
@@ -1878,10 +1916,14 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Sonic Spritesheet Edited_123
+      outline:
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 8, y: -16}
+        - {x: 16, y: -7}
+        - {x: 16, y: 7}
+        - {x: 9, y: 16}
+    - name: Sonic Spritesheet Edited_123
       rect:
         serializedVersion: 2
         x: 135
@@ -1892,9 +1934,7 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Sonic Spritesheet Edited_124
+    - name: Sonic Spritesheet Edited_124
       rect:
         serializedVersion: 2
         x: 167
@@ -1904,10 +1944,15 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Sonic Spritesheet Edited_125
+      outline:
+      - - {x: -7, y: 16}
+        - {x: -16, y: 12}
+        - {x: -16, y: -14}
+        - {x: -12, y: -16}
+        - {x: 13, y: -16}
+        - {x: 16, y: -15}
+        - {x: 16, y: 16}
+    - name: Sonic Spritesheet Edited_125
       rect:
         serializedVersion: 2
         x: 200
@@ -1917,10 +1962,16 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Sonic Spritesheet Edited_126
+      outline:
+      - - {x: -15, y: 17}
+        - {x: -19, y: 11}
+        - {x: -19, y: -13}
+        - {x: -17, y: -17}
+        - {x: 9, y: -17}
+        - {x: 19, y: -10}
+        - {x: 19, y: 14}
+        - {x: 18, y: 17}
+    - name: Sonic Spritesheet Edited_126
       rect:
         serializedVersion: 2
         x: 239
@@ -1930,10 +1981,16 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Sonic Spritesheet Edited_127
+      outline:
+      - - {x: -14.5, y: -19}
+        - {x: 9.5, y: -19}
+        - {x: 18.5, y: -17}
+        - {x: 18.5, y: 12}
+        - {x: 16.5, y: 19}
+        - {x: -2.5, y: 19}
+        - {x: -18.5, y: 7}
+        - {x: -18.5, y: -15}
+    - name: Sonic Spritesheet Edited_127
       rect:
         serializedVersion: 2
         x: 277
@@ -1944,9 +2001,7 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Sonic Spritesheet Edited_128
+    - name: Sonic Spritesheet Edited_128
       rect:
         serializedVersion: 2
         x: 309
@@ -1957,9 +2012,7 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Sonic Spritesheet Edited_129
+    - name: Sonic Spritesheet Edited_129
       rect:
         serializedVersion: 2
         x: 342
@@ -1970,9 +2023,7 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Sonic Spritesheet Edited_130
+    - name: Sonic Spritesheet Edited_130
       rect:
         serializedVersion: 2
         x: 381
@@ -1983,9 +2034,7 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Sonic Spritesheet Edited_131
+    - name: Sonic Spritesheet Edited_131
       rect:
         serializedVersion: 2
         x: 416
@@ -1996,9 +2045,7 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Sonic Spritesheet Edited_132
+    - name: Sonic Spritesheet Edited_132
       rect:
         serializedVersion: 2
         x: 440
@@ -2009,9 +2056,7 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Sonic Spritesheet Edited_133
+    - name: Sonic Spritesheet Edited_133
       rect:
         serializedVersion: 2
         x: 464
@@ -2022,9 +2067,7 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Sonic Spritesheet Edited_134
+    - name: Sonic Spritesheet Edited_134
       rect:
         serializedVersion: 2
         x: 464
@@ -2035,9 +2078,7 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Sonic Spritesheet Edited_135
+    - name: Sonic Spritesheet Edited_135
       rect:
         serializedVersion: 2
         x: 1
@@ -2048,9 +2089,7 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Sonic Spritesheet Edited_136
+    - name: Sonic Spritesheet Edited_136
       rect:
         serializedVersion: 2
         x: 32
@@ -2061,9 +2100,7 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Sonic Spritesheet Edited_137
+    - name: Sonic Spritesheet Edited_137
       rect:
         serializedVersion: 2
         x: 60
@@ -2074,9 +2111,7 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Sonic Spritesheet Edited_138
+    - name: Sonic Spritesheet Edited_138
       rect:
         serializedVersion: 2
         x: 83
@@ -2087,9 +2122,7 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Sonic Spritesheet Edited_139
+    - name: Sonic Spritesheet Edited_139
       rect:
         serializedVersion: 2
         x: 103
@@ -2100,9 +2133,7 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Sonic Spritesheet Edited_140
+    - name: Sonic Spritesheet Edited_140
       rect:
         serializedVersion: 2
         x: 126
@@ -2113,9 +2144,7 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Sonic Spritesheet Edited_141
+    - name: Sonic Spritesheet Edited_141
       rect:
         serializedVersion: 2
         x: 153
@@ -2125,10 +2154,13 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Sonic Spritesheet Edited_142
+      outline:
+      - - {x: -16, y: 18.5}
+        - {x: -16, y: -18.5}
+        - {x: 16, y: -18.5}
+        - {x: 16, y: 16.5}
+        - {x: 11, y: 18.5}
+    - name: Sonic Spritesheet Edited_142
       rect:
         serializedVersion: 2
         x: 186
@@ -2139,9 +2171,7 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Sonic Spritesheet Edited_143
+    - name: Sonic Spritesheet Edited_143
       rect:
         serializedVersion: 2
         x: 213
@@ -2152,9 +2182,7 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Sonic Spritesheet Edited_144
+    - name: Sonic Spritesheet Edited_144
       rect:
         serializedVersion: 2
         x: 238
@@ -2165,9 +2193,7 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Sonic Spritesheet Edited_145
+    - name: Sonic Spritesheet Edited_145
       rect:
         serializedVersion: 2
         x: 260
@@ -2178,9 +2204,7 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Sonic Spritesheet Edited_146
+    - name: Sonic Spritesheet Edited_146
       rect:
         serializedVersion: 2
         x: 284
@@ -2191,9 +2215,7 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Sonic Spritesheet Edited_147
+    - name: Sonic Spritesheet Edited_147
       rect:
         serializedVersion: 2
         x: 315
@@ -2204,9 +2226,7 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Sonic Spritesheet Edited_148
+    - name: Sonic Spritesheet Edited_148
       rect:
         serializedVersion: 2
         x: 340
@@ -2217,9 +2237,7 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Sonic Spritesheet Edited_149
+    - name: Sonic Spritesheet Edited_149
       rect:
         serializedVersion: 2
         x: 368
@@ -2230,9 +2248,7 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Sonic Spritesheet Edited_150
+    - name: Sonic Spritesheet Edited_150
       rect:
         serializedVersion: 2
         x: 398
@@ -2243,9 +2259,7 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Sonic Spritesheet Edited_151
+    - name: Sonic Spritesheet Edited_151
       rect:
         serializedVersion: 2
         x: 425
@@ -2255,10 +2269,17 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Sonic Spritesheet Edited_152
+      outline:
+      - - {x: -13, y: 24}
+        - {x: -16, y: 19}
+        - {x: -16, y: 0}
+        - {x: -5, y: -19}
+        - {x: 0, y: -24}
+        - {x: 13, y: -24}
+        - {x: 16, y: -23}
+        - {x: 16, y: -3}
+        - {x: 11, y: 24}
+    - name: Sonic Spritesheet Edited_152
       rect:
         serializedVersion: 2
         x: 458
@@ -2269,9 +2290,7 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Sonic Spritesheet Edited_153
+    - name: Sonic Spritesheet Edited_153
       rect:
         serializedVersion: 2
         x: 486
@@ -2282,9 +2301,7 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Sonic Spritesheet Edited_154
+    - name: Sonic Spritesheet Edited_154
       rect:
         serializedVersion: 2
         x: 1
@@ -2295,9 +2312,7 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Sonic Spritesheet Edited_155
+    - name: Sonic Spritesheet Edited_155
       rect:
         serializedVersion: 2
         x: 31
@@ -2308,9 +2323,7 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Sonic Spritesheet Edited_156
+    - name: Sonic Spritesheet Edited_156
       rect:
         serializedVersion: 2
         x: 53
@@ -2321,9 +2334,7 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Sonic Spritesheet Edited_157
+    - name: Sonic Spritesheet Edited_157
       rect:
         serializedVersion: 2
         x: 75
@@ -2334,9 +2345,7 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Sonic Spritesheet Edited_158
+    - name: Sonic Spritesheet Edited_158
       rect:
         serializedVersion: 2
         x: 97
@@ -2347,9 +2356,7 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Sonic Spritesheet Edited_159
+    - name: Sonic Spritesheet Edited_159
       rect:
         serializedVersion: 2
         x: 119
@@ -2360,9 +2367,7 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Sonic Spritesheet Edited_160
+    - name: Sonic Spritesheet Edited_160
       rect:
         serializedVersion: 2
         x: 142
@@ -2373,9 +2378,7 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Sonic Spritesheet Edited_161
+    - name: Sonic Spritesheet Edited_161
       rect:
         serializedVersion: 2
         x: 165
@@ -2385,10 +2388,17 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Sonic Spritesheet Edited_162
+      outline:
+      - - {x: -13, y: 24}
+        - {x: -16, y: 19}
+        - {x: -16, y: 0}
+        - {x: -5, y: -19}
+        - {x: 0, y: -24}
+        - {x: 13, y: -24}
+        - {x: 16, y: -23}
+        - {x: 16, y: -3}
+        - {x: 11, y: 24}
+    - name: Sonic Spritesheet Edited_162
       rect:
         serializedVersion: 2
         x: 198
@@ -2398,10 +2408,16 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Sonic Spritesheet Edited_163
+      outline:
+      - - {x: -14, y: 21}
+        - {x: -17, y: 19}
+        - {x: -17, y: -7}
+        - {x: -11, y: -21}
+        - {x: 12, y: -21}
+        - {x: 17, y: -16}
+        - {x: 17, y: 7}
+        - {x: 9, y: 21}
+    - name: Sonic Spritesheet Edited_163
       rect:
         serializedVersion: 2
         x: 233
@@ -2411,10 +2427,17 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Sonic Spritesheet Edited_164
+      outline:
+      - - {x: -18.5, y: -1.5}
+        - {x: -10.5, y: -12.5}
+        - {x: -4.5, y: -18.5}
+        - {x: 12.5, y: -18.5}
+        - {x: 18.5, y: -16.5}
+        - {x: 18.5, y: 8.5}
+        - {x: 13.5, y: 18.5}
+        - {x: -16.5, y: 18.5}
+        - {x: -18.5, y: 17.5}
+    - name: Sonic Spritesheet Edited_164
       rect:
         serializedVersion: 2
         x: 271
@@ -2425,9 +2448,7 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Sonic Spritesheet Edited_165
+    - name: Sonic Spritesheet Edited_165
       rect:
         serializedVersion: 2
         x: 300
@@ -2437,10 +2458,14 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Sonic Spritesheet Edited_166
+      outline:
+      - - {x: -17, y: 23}
+        - {x: -17, y: -7}
+        - {x: -16, y: -23}
+        - {x: 9, y: -23}
+        - {x: 17, y: 0}
+        - {x: 17, y: 23}
+    - name: Sonic Spritesheet Edited_166
       rect:
         serializedVersion: 2
         x: 335
@@ -2451,9 +2476,7 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Sonic Spritesheet Edited_167
+    - name: Sonic Spritesheet Edited_167
       rect:
         serializedVersion: 2
         x: 364
@@ -2464,9 +2487,7 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Sonic Spritesheet Edited_168
+    - name: Sonic Spritesheet Edited_168
       rect:
         serializedVersion: 2
         x: 392
@@ -2476,10 +2497,13 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Sonic Spritesheet Edited_169
+      outline:
+      - - {x: -17, y: 24}
+        - {x: -17, y: -24}
+        - {x: 15, y: -24}
+        - {x: 17, y: -19}
+        - {x: 17, y: 24}
+    - name: Sonic Spritesheet Edited_169
       rect:
         serializedVersion: 2
         x: 427
@@ -2490,9 +2514,7 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Sonic Spritesheet Edited_170
+    - name: Sonic Spritesheet Edited_170
       rect:
         serializedVersion: 2
         x: 454
@@ -2503,9 +2525,7 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Sonic Spritesheet Edited_171
+    - name: Sonic Spritesheet Edited_171
       rect:
         serializedVersion: 2
         x: 483
@@ -2516,9 +2536,7 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Sonic Spritesheet Edited_172
+    - name: Sonic Spritesheet Edited_172
       rect:
         serializedVersion: 2
         x: 5
@@ -2529,9 +2547,7 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Sonic Spritesheet Edited_173
+    - name: Sonic Spritesheet Edited_173
       rect:
         serializedVersion: 2
         x: 46
@@ -2542,9 +2558,7 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Sonic Spritesheet Edited_174
+    - name: Sonic Spritesheet Edited_174
       rect:
         serializedVersion: 2
         x: 95
@@ -2555,9 +2569,7 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Sonic Spritesheet Edited_175
+    - name: Sonic Spritesheet Edited_175
       rect:
         serializedVersion: 2
         x: 127
@@ -2568,9 +2580,7 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Sonic Spritesheet Edited_176
+    - name: Sonic Spritesheet Edited_176
       rect:
         serializedVersion: 2
         x: 168
@@ -2581,9 +2591,7 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Sonic Spritesheet Edited_177
+    - name: Sonic Spritesheet Edited_177
       rect:
         serializedVersion: 2
         x: 217
@@ -2594,9 +2602,7 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Sonic Spritesheet Edited_178
+    - name: Sonic Spritesheet Edited_178
       rect:
         serializedVersion: 2
         x: 249
@@ -2607,9 +2613,7 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Sonic Spritesheet Edited_179
+    - name: Sonic Spritesheet Edited_179
       rect:
         serializedVersion: 2
         x: 286
@@ -2619,10 +2623,16 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Sonic Spritesheet Edited_180
+      outline:
+      - - {x: -16.5, y: 24}
+        - {x: -17.5, y: 21}
+        - {x: -17.5, y: -7}
+        - {x: -7.5, y: -24}
+        - {x: 13.5, y: -24}
+        - {x: 17.5, y: -16}
+        - {x: 17.5, y: 9}
+        - {x: 12.5, y: 24}
+    - name: Sonic Spritesheet Edited_180
       rect:
         serializedVersion: 2
         x: 322
@@ -2632,10 +2642,16 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Sonic Spritesheet Edited_181
+      outline:
+      - - {x: -10.5, y: 17.5}
+        - {x: -23.5, y: 11.5}
+        - {x: -23.5, y: -14.5}
+        - {x: -21.5, y: -17.5}
+        - {x: 7.5, y: -17.5}
+        - {x: 23.5, y: -10.5}
+        - {x: 23.5, y: 10.5}
+        - {x: 18.5, y: 17.5}
+    - name: Sonic Spritesheet Edited_181
       rect:
         serializedVersion: 2
         x: 370
@@ -2646,9 +2662,7 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Sonic Spritesheet Edited_182
+    - name: Sonic Spritesheet Edited_182
       rect:
         serializedVersion: 2
         x: 399
@@ -2658,10 +2672,18 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Sonic Spritesheet Edited_183
+      outline:
+      - - {x: 23, y: 10}
+        - {x: 18, y: 17}
+        - {x: -7, y: 17}
+        - {x: -19, y: 13}
+        - {x: -23, y: 4}
+        - {x: -23, y: -7}
+        - {x: -11, y: -17}
+        - {x: -4, y: -17}
+        - {x: -4, y: -12}
+        - {x: 23, y: -6}
+    - name: Sonic Spritesheet Edited_183
       rect:
         serializedVersion: 2
         x: 446
@@ -2671,10 +2693,14 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Sonic Spritesheet Edited_184
+      outline:
+      - - {x: -18, y: 23.5}
+        - {x: -18, y: -0.5}
+        - {x: -3, y: -23.5}
+        - {x: 16, y: -23.5}
+        - {x: 18, y: -22.5}
+        - {x: 18, y: 23.5}
+    - name: Sonic Spritesheet Edited_184
       rect:
         serializedVersion: 2
         x: 483
@@ -2684,10 +2710,16 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Sonic Spritesheet Edited_185
+      outline:
+      - - {x: -19, y: 18.5}
+        - {x: -24, y: 9.5}
+        - {x: -24, y: -13.5}
+        - {x: -22, y: -17.5}
+        - {x: -15, y: -18.5}
+        - {x: 24, y: -18.5}
+        - {x: 24, y: 13.5}
+        - {x: 8, y: 18.5}
+    - name: Sonic Spritesheet Edited_185
       rect:
         serializedVersion: 2
         x: 1
@@ -2697,10 +2729,13 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Sonic Spritesheet Edited_186
+      outline:
+      - - {x: -18, y: 18.5}
+        - {x: -18, y: -11.5}
+        - {x: -1, y: -18.5}
+        - {x: 18, y: -18.5}
+        - {x: 18, y: 18.5}
+    - name: Sonic Spritesheet Edited_186
       rect:
         serializedVersion: 2
         x: 38
@@ -2710,10 +2745,18 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Sonic Spritesheet Edited_187
+      outline:
+      - - {x: -10.5, y: 18.5}
+        - {x: -10.5, y: 17.5}
+        - {x: -9.5, y: 14.5}
+        - {x: -17.5, y: 10.5}
+        - {x: -17.5, y: 0.5}
+        - {x: -16.5, y: -2.5}
+        - {x: -1.5, y: -18.5}
+        - {x: 16.5, y: -18.5}
+        - {x: 17.5, y: -16.5}
+        - {x: 17.5, y: 18.5}
+    - name: Sonic Spritesheet Edited_187
       rect:
         serializedVersion: 2
         x: 74
@@ -2723,10 +2766,13 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Sonic Spritesheet Edited_188
+      outline:
+      - - {x: -16, y: 17.5}
+        - {x: -16, y: -8.5}
+        - {x: -2, y: -17.5}
+        - {x: 16, y: -17.5}
+        - {x: 16, y: 17.5}
+    - name: Sonic Spritesheet Edited_188
       rect:
         serializedVersion: 2
         x: 107
@@ -2737,9 +2783,7 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Sonic Spritesheet Edited_189
+    - name: Sonic Spritesheet Edited_189
       rect:
         serializedVersion: 2
         x: 139
@@ -2749,10 +2793,14 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Sonic Spritesheet Edited_190
+      outline:
+      - - {x: -18, y: 20}
+        - {x: -18, y: -19}
+        - {x: -15, y: -20}
+        - {x: 4, y: -20}
+        - {x: 18, y: 5}
+        - {x: 18, y: 20}
+    - name: Sonic Spritesheet Edited_190
       rect:
         serializedVersion: 2
         x: 176
@@ -2763,9 +2811,7 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Sonic Spritesheet Edited_191
+    - name: Sonic Spritesheet Edited_191
       rect:
         serializedVersion: 2
         x: 202
@@ -2776,9 +2822,7 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Sonic Spritesheet Edited_192
+    - name: Sonic Spritesheet Edited_192
       rect:
         serializedVersion: 2
         x: 211
@@ -2788,10 +2832,14 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Sonic Spritesheet Edited_193
+      outline:
+      - - {x: -8, y: 21}
+        - {x: -16, y: 17}
+        - {x: -16, y: -21}
+        - {x: 16, y: -21}
+        - {x: 16, y: 18}
+        - {x: 13, y: 21}
+    - name: Sonic Spritesheet Edited_193
       rect:
         serializedVersion: 2
         x: 244
@@ -2801,10 +2849,19 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Sonic Spritesheet Edited_194
+      outline:
+      - - {x: -18, y: 20}
+        - {x: -18, y: 0}
+        - {x: -17, y: 0}
+        - {x: -9, y: -1}
+        - {x: -16, y: -1}
+        - {x: -18, y: -2}
+        - {x: -18, y: -15}
+        - {x: -11, y: -20}
+        - {x: 17, y: -20}
+        - {x: 18, y: -12}
+        - {x: 18, y: 20}
+    - name: Sonic Spritesheet Edited_194
       rect:
         serializedVersion: 2
         x: 281
@@ -2814,10 +2871,13 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Sonic Spritesheet Edited_195
+      outline:
+      - - {x: -19, y: 18.5}
+        - {x: -19, y: -18.5}
+        - {x: 13, y: -18.5}
+        - {x: 19, y: -9.5}
+        - {x: 19, y: 18.5}
+    - name: Sonic Spritesheet Edited_195
       rect:
         serializedVersion: 2
         x: 320
@@ -2827,10 +2887,15 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Sonic Spritesheet Edited_196
+      outline:
+      - - {x: -10.5, y: 18.5}
+        - {x: -17.5, y: 7.5}
+        - {x: -17.5, y: -15.5}
+        - {x: -7.5, y: -18.5}
+        - {x: 11.5, y: -18.5}
+        - {x: 17.5, y: -8.5}
+        - {x: 17.5, y: 18.5}
+    - name: Sonic Spritesheet Edited_196
       rect:
         serializedVersion: 2
         x: 356
@@ -2841,9 +2906,7 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Sonic Spritesheet Edited_197
+    - name: Sonic Spritesheet Edited_197
       rect:
         serializedVersion: 2
         x: 384
@@ -2854,9 +2917,7 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Sonic Spritesheet Edited_198
+    - name: Sonic Spritesheet Edited_198
       rect:
         serializedVersion: 2
         x: 416
@@ -2867,9 +2928,7 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Sonic Spritesheet Edited_199
+    - name: Sonic Spritesheet Edited_199
       rect:
         serializedVersion: 2
         x: 447
@@ -2880,9 +2939,7 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Sonic Spritesheet Edited_200
+    - name: Sonic Spritesheet Edited_200
       rect:
         serializedVersion: 2
         x: 476
@@ -2893,9 +2950,7 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Sonic Spritesheet Edited_201
+    - name: Sonic Spritesheet Edited_201
       rect:
         serializedVersion: 2
         x: 507
@@ -2906,9 +2961,7 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Sonic Spritesheet Edited_202
+    - name: Sonic Spritesheet Edited_202
       rect:
         serializedVersion: 2
         x: 1
@@ -2918,10 +2971,15 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Sonic Spritesheet Edited_203
+      outline:
+      - - {x: -12.5, y: 19.5}
+        - {x: -17.5, y: 18.5}
+        - {x: -17.5, y: -19.5}
+        - {x: 11.5, y: -19.5}
+        - {x: 17.5, y: -11.5}
+        - {x: 17.5, y: 1.5}
+        - {x: 11.5, y: 19.5}
+    - name: Sonic Spritesheet Edited_203
       rect:
         serializedVersion: 2
         x: 37
@@ -2931,10 +2989,15 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Sonic Spritesheet Edited_204
+      outline:
+      - - {x: -12, y: 16}
+        - {x: -19, y: 15}
+        - {x: -19, y: -13}
+        - {x: -11, y: -16}
+        - {x: 16, y: -16}
+        - {x: 19, y: -12}
+        - {x: 19, y: 16}
+    - name: Sonic Spritesheet Edited_204
       rect:
         serializedVersion: 2
         x: 76
@@ -2945,9 +3008,7 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Sonic Spritesheet Edited_205
+    - name: Sonic Spritesheet Edited_205
       rect:
         serializedVersion: 2
         x: 116
@@ -2957,10 +3018,15 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Sonic Spritesheet Edited_206
+      outline:
+      - - {x: -10.5, y: 20}
+        - {x: -16.5, y: 15}
+        - {x: -16.5, y: -16}
+        - {x: -15.5, y: -20}
+        - {x: 16.5, y: -20}
+        - {x: 16.5, y: 16}
+        - {x: 12.5, y: 20}
+    - name: Sonic Spritesheet Edited_206
       rect:
         serializedVersion: 2
         x: 150
@@ -2970,10 +3036,15 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Sonic Spritesheet Edited_207
+      outline:
+      - - {x: -10.5, y: 20}
+        - {x: -16.5, y: 15}
+        - {x: -16.5, y: -16}
+        - {x: -15.5, y: -20}
+        - {x: 16.5, y: -20}
+        - {x: 16.5, y: 16}
+        - {x: 12.5, y: 20}
+    - name: Sonic Spritesheet Edited_207
       rect:
         serializedVersion: 2
         x: 184
@@ -2983,10 +3054,14 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Sonic Spritesheet Edited_208
+      outline:
+      - - {x: -14.5, y: 19}
+        - {x: -16.5, y: 18}
+        - {x: -16.5, y: -19}
+        - {x: 16.5, y: -19}
+        - {x: 16.5, y: 17}
+        - {x: 14.5, y: 19}
+    - name: Sonic Spritesheet Edited_208
       rect:
         serializedVersion: 2
         x: 218
@@ -2997,9 +3072,7 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Sonic Spritesheet Edited_209
+    - name: Sonic Spritesheet Edited_209
       rect:
         serializedVersion: 2
         x: 243
@@ -3010,9 +3083,7 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Sonic Spritesheet Edited_210
+    - name: Sonic Spritesheet Edited_210
       rect:
         serializedVersion: 2
         x: 267
@@ -3023,9 +3094,7 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Sonic Spritesheet Edited_211
+    - name: Sonic Spritesheet Edited_211
       rect:
         serializedVersion: 2
         x: 296
@@ -3036,9 +3105,7 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Sonic Spritesheet Edited_212
+    - name: Sonic Spritesheet Edited_212
       rect:
         serializedVersion: 2
         x: 321
@@ -3049,9 +3116,7 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Sonic Spritesheet Edited_213
+    - name: Sonic Spritesheet Edited_213
       rect:
         serializedVersion: 2
         x: 350
@@ -3062,9 +3127,7 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Sonic Spritesheet Edited_214
+    - name: Sonic Spritesheet Edited_214
       rect:
         serializedVersion: 2
         x: 375
@@ -3075,9 +3138,7 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Sonic Spritesheet Edited_215
+    - name: Sonic Spritesheet Edited_215
       rect:
         serializedVersion: 2
         x: 405
@@ -3088,9 +3149,7 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Sonic Spritesheet Edited_216
+    - name: Sonic Spritesheet Edited_216
       rect:
         serializedVersion: 2
         x: 440
@@ -3101,9 +3160,7 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Sonic Spritesheet Edited_217
+    - name: Sonic Spritesheet Edited_217
       rect:
         serializedVersion: 2
         x: 485
@@ -3114,9 +3171,7 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Sonic Spritesheet Edited_218
+    - name: Sonic Spritesheet Edited_218
       rect:
         serializedVersion: 2
         x: 523
@@ -3127,9 +3182,7 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Sonic Spritesheet Edited_219
+    - name: Sonic Spritesheet Edited_219
       rect:
         serializedVersion: 2
         x: 1
@@ -3139,10 +3192,14 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Sonic Spritesheet Edited_220
+      outline:
+      - - {x: -22.5, y: 20}
+        - {x: -27.5, y: 5}
+        - {x: -27.5, y: -20}
+        - {x: 27.5, y: -20}
+        - {x: 27.5, y: -11}
+        - {x: 8.5, y: 20}
+    - name: Sonic Spritesheet Edited_220
       rect:
         serializedVersion: 2
         x: 57
@@ -3152,10 +3209,14 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Sonic Spritesheet Edited_221
+      outline:
+      - - {x: -26, y: 19.5}
+        - {x: -27, y: 4.5}
+        - {x: -27, y: -19.5}
+        - {x: 27, y: -19.5}
+        - {x: 27, y: 17.5}
+        - {x: 19, y: 19.5}
+    - name: Sonic Spritesheet Edited_221
       rect:
         serializedVersion: 2
         x: 112
@@ -3165,10 +3226,15 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Sonic Spritesheet Edited_222
+      outline:
+      - - {x: -25, y: 19}
+        - {x: -26, y: 14}
+        - {x: -26, y: -19}
+        - {x: 0, y: -19}
+        - {x: 26, y: -9}
+        - {x: 26, y: 10}
+        - {x: 6, y: 19}
+    - name: Sonic Spritesheet Edited_222
       rect:
         serializedVersion: 2
         x: 165
@@ -3178,10 +3244,15 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Sonic Spritesheet Edited_223
+      outline:
+      - - {x: -12, y: 26.5}
+        - {x: -25, y: 0.5}
+        - {x: -25, y: -7.5}
+        - {x: 4, y: -26.5}
+        - {x: 25, y: -26.5}
+        - {x: 25, y: 6.5}
+        - {x: 9, y: 26.5}
+    - name: Sonic Spritesheet Edited_223
       rect:
         serializedVersion: 2
         x: 216
@@ -3191,10 +3262,16 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Sonic Spritesheet Edited_224
+      outline:
+      - - {x: -18.5, y: 26.5}
+        - {x: -24.5, y: 15.5}
+        - {x: -24.5, y: 5.5}
+        - {x: 6.5, y: -26.5}
+        - {x: 18.5, y: -26.5}
+        - {x: 19.5, y: -25.5}
+        - {x: 24.5, y: -16.5}
+        - {x: 24.5, y: 26.5}
+    - name: Sonic Spritesheet Edited_224
       rect:
         serializedVersion: 2
         x: 266
@@ -3204,10 +3281,16 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Sonic Spritesheet Edited_225
+      outline:
+      - - {x: 23, y: 25.5}
+        - {x: -23, y: 25.5}
+        - {x: -23, y: -2.5}
+        - {x: -4, y: -25.5}
+        - {x: 6, y: -25.5}
+        - {x: 6, y: -23.5}
+        - {x: 15, y: -10.5}
+        - {x: 23, y: 4.5}
+    - name: Sonic Spritesheet Edited_225
       rect:
         serializedVersion: 2
         x: 313
@@ -3217,10 +3300,16 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Sonic Spritesheet Edited_226
+      outline:
+      - - {x: -17.5, y: 29.5}
+        - {x: -22.5, y: 18.5}
+        - {x: -22.5, y: -0.5}
+        - {x: 4.5, y: -29.5}
+        - {x: 21.5, y: -29.5}
+        - {x: 22.5, y: -28.5}
+        - {x: 22.5, y: 16.5}
+        - {x: 7.5, y: 29.5}
+    - name: Sonic Spritesheet Edited_226
       rect:
         serializedVersion: 2
         x: 359
@@ -3231,9 +3320,7 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Sonic Spritesheet Edited_227
+    - name: Sonic Spritesheet Edited_227
       rect:
         serializedVersion: 2
         x: 388
@@ -3243,10 +3330,18 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Sonic Spritesheet Edited_228
+      outline:
+      - - {x: -8, y: 27}
+        - {x: -17, y: 19}
+        - {x: -16, y: 13}
+        - {x: -11, y: 2}
+        - {x: -22, y: -22}
+        - {x: -22, y: -27}
+        - {x: -10, y: -27}
+        - {x: 22, y: 5}
+        - {x: 22, y: 17}
+        - {x: 4, y: 27}
+    - name: Sonic Spritesheet Edited_228
       rect:
         serializedVersion: 2
         x: 433
@@ -3256,10 +3351,18 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Sonic Spritesheet Edited_229
+      outline:
+      - - {x: 11.5, y: 28}
+        - {x: -2.5, y: 28}
+        - {x: -10.5, y: 25}
+        - {x: -17.5, y: 2}
+        - {x: -17.5, y: -28}
+        - {x: 0.5, y: -28}
+        - {x: 4.5, y: -27}
+        - {x: 17.5, y: 5}
+        - {x: 17.5, y: 20}
+        - {x: 16.5, y: 24}
+    - name: Sonic Spritesheet Edited_229
       rect:
         serializedVersion: 2
         x: 469
@@ -3269,10 +3372,16 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Sonic Spritesheet Edited_230
+      outline:
+      - - {x: -7.5, y: 28}
+        - {x: -10.5, y: 27}
+        - {x: -17.5, y: 17}
+        - {x: -17.5, y: 1}
+        - {x: 0.5, y: -28}
+        - {x: 17.5, y: -28}
+        - {x: 17.5, y: 24}
+        - {x: 13.5, y: 28}
+    - name: Sonic Spritesheet Edited_230
       rect:
         serializedVersion: 2
         x: 1
@@ -3282,10 +3391,15 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Sonic Spritesheet Edited_231
+      outline:
+      - - {x: -24.5, y: 22.5}
+        - {x: -31.5, y: -0.5}
+        - {x: -31.5, y: -22.5}
+        - {x: 7.5, y: -22.5}
+        - {x: 31.5, y: -15.5}
+        - {x: 31.5, y: -0.5}
+        - {x: 0.5, y: 22.5}
+    - name: Sonic Spritesheet Edited_231
       rect:
         serializedVersion: 2
         x: 65
@@ -3295,10 +3409,19 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Sonic Spritesheet Edited_232
+      outline:
+      - - {x: -25.5, y: 21}
+        - {x: -31.5, y: 4}
+        - {x: -31.5, y: -5}
+        - {x: -28.5, y: -9}
+        - {x: -23.5, y: -15}
+        - {x: -20.5, y: -15}
+        - {x: -30.5, y: -16}
+        - {x: -31.5, y: -17}
+        - {x: -31.5, y: -21}
+        - {x: 31.5, y: -21}
+        - {x: 31.5, y: 21}
+    - name: Sonic Spritesheet Edited_232
       rect:
         serializedVersion: 2
         x: 129
@@ -3308,10 +3431,14 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Sonic Spritesheet Edited_233
+      outline:
+      - - {x: -32, y: -22}
+        - {x: 32, y: -22}
+        - {x: 32, y: -5}
+        - {x: 5, y: 22}
+        - {x: -26, y: 22}
+        - {x: -32, y: -3}
+    - name: Sonic Spritesheet Edited_233
       rect:
         serializedVersion: 2
         x: 194
@@ -3321,10 +3448,20 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Sonic Spritesheet Edited_234
+      outline:
+      - - {x: 2.5, y: 23}
+        - {x: -27.5, y: 23}
+        - {x: -28.5, y: 22}
+        - {x: -28.5, y: 3}
+        - {x: -26.5, y: -9}
+        - {x: -24.5, y: -10}
+        - {x: -30.5, y: -12}
+        - {x: -31.5, y: -13}
+        - {x: -31.5, y: -23}
+        - {x: 21.5, y: -23}
+        - {x: 31.5, y: -20}
+        - {x: 31.5, y: -1}
+    - name: Sonic Spritesheet Edited_234
       rect:
         serializedVersion: 2
         x: 258
@@ -3334,10 +3471,17 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Sonic Spritesheet Edited_235
+      outline:
+      - - {x: 19, y: 16.5}
+        - {x: 3, y: 22.5}
+        - {x: -27, y: 22.5}
+        - {x: -29, y: 13.5}
+        - {x: -32, y: 1.5}
+        - {x: -32, y: -22.5}
+        - {x: 29, y: -22.5}
+        - {x: 32, y: -18.5}
+        - {x: 32, y: -5.5}
+    - name: Sonic Spritesheet Edited_235
       rect:
         serializedVersion: 2
         x: 323
@@ -3347,10 +3491,15 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Sonic Spritesheet Edited_236
+      outline:
+      - - {x: -32, y: -22.5}
+        - {x: -30, y: -23.5}
+        - {x: 32, y: -23.5}
+        - {x: 32, y: 2.5}
+        - {x: 18, y: 23.5}
+        - {x: -26, y: 23.5}
+        - {x: -32, y: -1.5}
+    - name: Sonic Spritesheet Edited_236
       rect:
         serializedVersion: 2
         x: 388
@@ -3360,10 +3509,17 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Sonic Spritesheet Edited_237
+      outline:
+      - - {x: -13, y: 21.5}
+        - {x: -13, y: 20.5}
+        - {x: -17, y: 12.5}
+        - {x: -19, y: 10.5}
+        - {x: -19, y: -21.5}
+        - {x: 5, y: -21.5}
+        - {x: 19, y: -9.5}
+        - {x: 19, y: 6.5}
+        - {x: 13, y: 21.5}
+    - name: Sonic Spritesheet Edited_237
       rect:
         serializedVersion: 2
         x: 427
@@ -3373,10 +3529,14 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Sonic Spritesheet Edited_238
+      outline:
+      - - {x: -20, y: 22}
+        - {x: -20, y: -22}
+        - {x: 2, y: -22}
+        - {x: 20, y: -7}
+        - {x: 20, y: 9}
+        - {x: 17, y: 22}
+    - name: Sonic Spritesheet Edited_238
       rect:
         serializedVersion: 2
         x: 468
@@ -3386,10 +3546,15 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Sonic Spritesheet Edited_239
+      outline:
+      - - {x: 12.5, y: 21.5}
+        - {x: -16.5, y: 21.5}
+        - {x: -18.5, y: 4.5}
+        - {x: -18.5, y: -21.5}
+        - {x: 17.5, y: -21.5}
+        - {x: 18.5, y: -16.5}
+        - {x: 18.5, y: 10.5}
+    - name: Sonic Spritesheet Edited_239
       rect:
         serializedVersion: 2
         x: 1
@@ -3400,9 +3565,7 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Sonic Spritesheet Edited_240
+    - name: Sonic Spritesheet Edited_240
       rect:
         serializedVersion: 2
         x: 25
@@ -3413,9 +3576,7 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Sonic Spritesheet Edited_241
+    - name: Sonic Spritesheet Edited_241
       rect:
         serializedVersion: 2
         x: 54
@@ -3426,9 +3587,7 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Sonic Spritesheet Edited_242
+    - name: Sonic Spritesheet Edited_242
       rect:
         serializedVersion: 2
         x: 83
@@ -3439,9 +3598,7 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Sonic Spritesheet Edited_243
+    - name: Sonic Spritesheet Edited_243
       rect:
         serializedVersion: 2
         x: 112
@@ -3452,9 +3609,7 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Sonic Spritesheet Edited_244
+    - name: Sonic Spritesheet Edited_244
       rect:
         serializedVersion: 2
         x: 141
@@ -3464,10 +3619,14 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Sonic Spritesheet Edited_245
+      outline:
+      - - {x: -16, y: 22.5}
+        - {x: -16, y: 4.5}
+        - {x: -7, y: -22.5}
+        - {x: 16, y: -22.5}
+        - {x: 16, y: 12.5}
+        - {x: 12, y: 22.5}
+    - name: Sonic Spritesheet Edited_245
       rect:
         serializedVersion: 2
         x: 174
@@ -3477,10 +3636,15 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Sonic Spritesheet Edited_246
+      outline:
+      - - {x: -16.5, y: 22.5}
+        - {x: -16.5, y: 8.5}
+        - {x: -15.5, y: 2.5}
+        - {x: -6.5, y: -22.5}
+        - {x: 16.5, y: -22.5}
+        - {x: 16.5, y: 18.5}
+        - {x: 9.5, y: 22.5}
+    - name: Sonic Spritesheet Edited_246
       rect:
         serializedVersion: 2
         x: 208
@@ -3490,10 +3654,15 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Sonic Spritesheet Edited_247
+      outline:
+      - - {x: -17, y: 22.5}
+        - {x: -17, y: 11.5}
+        - {x: -12, y: -3.5}
+        - {x: -6, y: -22.5}
+        - {x: 17, y: -22.5}
+        - {x: 17, y: 18.5}
+        - {x: 8, y: 22.5}
+    - name: Sonic Spritesheet Edited_247
       rect:
         serializedVersion: 2
         x: 244
@@ -3503,10 +3672,12 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Sonic Spritesheet Edited_248
+      outline:
+      - - {x: -16.5, y: 16}
+        - {x: -16.5, y: -16}
+        - {x: 16.5, y: -16}
+        - {x: 16.5, y: 16}
+    - name: Sonic Spritesheet Edited_248
       rect:
         serializedVersion: 2
         x: 278
@@ -3517,9 +3688,7 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Sonic Spritesheet Edited_249
+    - name: Sonic Spritesheet Edited_249
       rect:
         serializedVersion: 2
         x: 310
@@ -3529,10 +3698,15 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Sonic Spritesheet Edited_250
+      outline:
+      - - {x: 8, y: 23}
+        - {x: -20, y: 23}
+        - {x: -20, y: -23}
+        - {x: 13, y: -23}
+        - {x: 20, y: -16}
+        - {x: 20, y: 0}
+        - {x: 14, y: 20}
+    - name: Sonic Spritesheet Edited_250
       rect:
         serializedVersion: 2
         x: 351
@@ -3542,10 +3716,13 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Sonic Spritesheet Edited_251
+      outline:
+      - - {x: 19.5, y: -22.5}
+        - {x: 19.5, y: 8.5}
+        - {x: 14.5, y: 22.5}
+        - {x: -19.5, y: 22.5}
+        - {x: -19.5, y: -22.5}
+    - name: Sonic Spritesheet Edited_251
       rect:
         serializedVersion: 2
         x: 391
@@ -3556,9 +3733,7 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Sonic Spritesheet Edited_252
+    - name: Sonic Spritesheet Edited_252
       rect:
         serializedVersion: 2
         x: 421
@@ -3569,9 +3744,7 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Sonic Spritesheet Edited_253
+    - name: Sonic Spritesheet Edited_253
       rect:
         serializedVersion: 2
         x: 451
@@ -3581,10 +3754,18 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Sonic Spritesheet Edited_254
+      outline:
+      - - {x: 18.5, y: -18}
+        - {x: 18.5, y: 2}
+        - {x: 9.5, y: 23}
+        - {x: -17.5, y: 23}
+        - {x: -18.5, y: 21}
+        - {x: -18.5, y: -23}
+        - {x: -7.5, y: -23}
+        - {x: -7.5, y: -21}
+        - {x: 3.5, y: -23}
+        - {x: 6.5, y: -23}
+    - name: Sonic Spritesheet Edited_254
       rect:
         serializedVersion: 2
         x: 489
@@ -3594,10 +3775,16 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Sonic Spritesheet Edited_255
+      outline:
+      - - {x: 7, y: 22.5}
+        - {x: -18, y: 22.5}
+        - {x: -19, y: 15.5}
+        - {x: -19, y: -22.5}
+        - {x: 15, y: -22.5}
+        - {x: 19, y: -19.5}
+        - {x: 19, y: 2.5}
+        - {x: 14, y: 16.5}
+    - name: Sonic Spritesheet Edited_255
       rect:
         serializedVersion: 2
         x: 528
@@ -3608,9 +3795,7 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Sonic Spritesheet Edited_256
+    - name: Sonic Spritesheet Edited_256
       rect:
         serializedVersion: 2
         x: 1
@@ -3620,10 +3805,15 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Sonic Spritesheet Edited_257
+      outline:
+      - - {x: -14.5, y: 17.5}
+        - {x: -18.5, y: -3.5}
+        - {x: -18.5, y: -17.5}
+        - {x: 2.5, y: -17.5}
+        - {x: 18.5, y: -6.5}
+        - {x: 18.5, y: 12.5}
+        - {x: 16.5, y: 17.5}
+    - name: Sonic Spritesheet Edited_257
       rect:
         serializedVersion: 2
         x: 39
@@ -3633,10 +3823,16 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Sonic Spritesheet Edited_258
+      outline:
+      - - {x: -11.5, y: 18}
+        - {x: -14.5, y: 16}
+        - {x: -18.5, y: 4}
+        - {x: -18.5, y: -18}
+        - {x: -0.5, y: -18}
+        - {x: 18.5, y: -7}
+        - {x: 18.5, y: 13}
+        - {x: 14.5, y: 18}
+    - name: Sonic Spritesheet Edited_258
       rect:
         serializedVersion: 2
         x: 77
@@ -3646,10 +3842,16 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Sonic Spritesheet Edited_259
+      outline:
+      - - {x: -12, y: 20}
+        - {x: -24, y: 13}
+        - {x: -24, y: 0}
+        - {x: 4, y: -20}
+        - {x: 19, y: -20}
+        - {x: 24, y: -15}
+        - {x: 24, y: 4}
+        - {x: 11, y: 20}
+    - name: Sonic Spritesheet Edited_259
       rect:
         serializedVersion: 2
         x: 126
@@ -3659,10 +3861,18 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Sonic Spritesheet Edited_260
+      outline:
+      - - {x: 11, y: 20.5}
+        - {x: -22, y: 20.5}
+        - {x: -25, y: 18.5}
+        - {x: -25, y: -0.5}
+        - {x: -6, y: -14.5}
+        - {x: 2, y: -20.5}
+        - {x: 14, y: -20.5}
+        - {x: 19, y: -15.5}
+        - {x: 25, y: -11.5}
+        - {x: 25, y: 7.5}
+    - name: Sonic Spritesheet Edited_260
       rect:
         serializedVersion: 2
         x: 177
@@ -3672,10 +3882,17 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Sonic Spritesheet Edited_261
+      outline:
+      - - {x: 15, y: 23.5}
+        - {x: -24, y: 23.5}
+        - {x: -24, y: -0.5}
+        - {x: -14, y: -19.5}
+        - {x: -3, y: -23.5}
+        - {x: 14, y: -23.5}
+        - {x: 15, y: -17.5}
+        - {x: 24, y: -6.5}
+        - {x: 24, y: 20.5}
+    - name: Sonic Spritesheet Edited_261
       rect:
         serializedVersion: 2
         x: 226
@@ -3685,10 +3902,22 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Sonic Spritesheet Edited_262
+      outline:
+      - - {x: 25, y: 10.5}
+        - {x: 20, y: 14.5}
+        - {x: 19, y: 14.5}
+        - {x: 16, y: 11.5}
+        - {x: 16, y: 4.5}
+        - {x: 16, y: 16.5}
+        - {x: 0, y: 22.5}
+        - {x: -25, y: 22.5}
+        - {x: -25, y: 0.5}
+        - {x: -9, y: -22.5}
+        - {x: 4, y: -22.5}
+        - {x: 6, y: -19.5}
+        - {x: 22, y: -9.5}
+        - {x: 25, y: -5.5}
+    - name: Sonic Spritesheet Edited_262
       rect:
         serializedVersion: 2
         x: 276
@@ -3698,10 +3927,16 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Sonic Spritesheet Edited_263
+      outline:
+      - - {x: -11.5, y: 20.5}
+        - {x: -23.5, y: 13.5}
+        - {x: -23.5, y: -0.5}
+        - {x: 3.5, y: -20.5}
+        - {x: 15.5, y: -20.5}
+        - {x: 23.5, y: -12.5}
+        - {x: 23.5, y: 6.5}
+        - {x: 11.5, y: 20.5}
+    - name: Sonic Spritesheet Edited_263
       rect:
         serializedVersion: 2
         x: 324
@@ -3711,10 +3946,14 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Sonic Spritesheet Edited_264
+      outline:
+      - - {x: -23.5, y: 18.5}
+        - {x: -23.5, y: -5.5}
+        - {x: 2.5, y: -18.5}
+        - {x: 23.5, y: -18.5}
+        - {x: 23.5, y: 2.5}
+        - {x: 13.5, y: 18.5}
+    - name: Sonic Spritesheet Edited_264
       rect:
         serializedVersion: 2
         x: 372
@@ -3724,10 +3963,17 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Sonic Spritesheet Edited_265
+      outline:
+      - - {x: 4.5, y: 24}
+        - {x: -16.5, y: 24}
+        - {x: -23.5, y: 13}
+        - {x: -23.5, y: -10}
+        - {x: -4.5, y: -24}
+        - {x: 18.5, y: -24}
+        - {x: 20.5, y: -18}
+        - {x: 23.5, y: -7}
+        - {x: 23.5, y: 18}
+    - name: Sonic Spritesheet Edited_265
       rect:
         serializedVersion: 2
         x: 420
@@ -3737,10 +3983,17 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Sonic Spritesheet Edited_266
+      outline:
+      - - {x: 15.5, y: 21}
+        - {x: -22.5, y: 21}
+        - {x: -25.5, y: 14}
+        - {x: -25.5, y: -3}
+        - {x: -3.5, y: -21}
+        - {x: 5.5, y: -21}
+        - {x: 7.5, y: -19}
+        - {x: 25.5, y: -6}
+        - {x: 25.5, y: 16}
+    - name: Sonic Spritesheet Edited_266
       rect:
         serializedVersion: 2
         x: 472
@@ -3750,10 +4003,21 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Sonic Spritesheet Edited_267
+      outline:
+      - - {x: 9.5, y: 22.5}
+        - {x: -7.5, y: 22.5}
+        - {x: -7.5, y: 21.5}
+        - {x: -6.5, y: 18.5}
+        - {x: -7.5, y: 17.5}
+        - {x: -16.5, y: 9.5}
+        - {x: -16.5, y: 1.5}
+        - {x: -13.5, y: -8.5}
+        - {x: -5.5, y: -22.5}
+        - {x: 4.5, y: -22.5}
+        - {x: 14.5, y: -16.5}
+        - {x: 16.5, y: -6.5}
+        - {x: 16.5, y: 20.5}
+    - name: Sonic Spritesheet Edited_267
       rect:
         serializedVersion: 2
         x: 506
@@ -3763,10 +4027,18 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Sonic Spritesheet Edited_268
+      outline:
+      - - {x: -4.5, y: 22.5}
+        - {x: -14.5, y: 13.5}
+        - {x: -17.5, y: 10.5}
+        - {x: -17.5, y: 3.5}
+        - {x: -7.5, y: -22.5}
+        - {x: 6.5, y: -22.5}
+        - {x: 16.5, y: -17.5}
+        - {x: 17.5, y: -3.5}
+        - {x: 17.5, y: 16.5}
+        - {x: 7.5, y: 22.5}
+    - name: Sonic Spritesheet Edited_268
       rect:
         serializedVersion: 2
         x: 1
@@ -3777,9 +4049,7 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Sonic Spritesheet Edited_269
+    - name: Sonic Spritesheet Edited_269
       rect:
         serializedVersion: 2
         x: 33
@@ -3789,10 +4059,16 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Sonic Spritesheet Edited_270
+      outline:
+      - - {x: -16, y: 21.5}
+        - {x: -16, y: 8.5}
+        - {x: -12, y: -19.5}
+        - {x: -10, y: -21.5}
+        - {x: 8, y: -21.5}
+        - {x: 16, y: -9.5}
+        - {x: 16, y: 10.5}
+        - {x: 11, y: 21.5}
+    - name: Sonic Spritesheet Edited_270
       rect:
         serializedVersion: 2
         x: 66
@@ -3802,10 +4078,13 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Sonic Spritesheet Edited_271
+      outline:
+      - - {x: -16, y: 21}
+        - {x: -16, y: -21}
+        - {x: 16, y: -21}
+        - {x: 16, y: 11}
+        - {x: 11, y: 21}
+    - name: Sonic Spritesheet Edited_271
       rect:
         serializedVersion: 2
         x: 99
@@ -3815,10 +4094,15 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Sonic Spritesheet Edited_272
+      outline:
+      - - {x: -16, y: 21.5}
+        - {x: -16, y: -19.5}
+        - {x: -9, y: -21.5}
+        - {x: 11, y: -21.5}
+        - {x: 16, y: -12.5}
+        - {x: 16, y: 12.5}
+        - {x: 11, y: 21.5}
+    - name: Sonic Spritesheet Edited_272
       rect:
         serializedVersion: 2
         x: 130
@@ -3828,10 +4112,40 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Sonic Spritesheet Edited_273
+      outline:
+      - - {x: 20, y: 19}
+        - {x: 15, y: 15}
+        - {x: 31, y: 49}
+        - {x: 34, y: 61}
+        - {x: 25, y: 67}
+        - {x: -15, y: 67}
+        - {x: -44, y: 58}
+        - {x: -66, y: 36}
+        - {x: -66, y: -67}
+        - {x: 13, y: -67}
+        - {x: 35, y: -58}
+        - {x: 64, y: -28}
+        - {x: 64, y: -1}
+        - {x: 30, y: 28}
+      - - {x: 54, y: 28}
+        - {x: 54, y: 25}
+        - {x: 56, y: 23}
+        - {x: 66, y: 23}
+        - {x: 66, y: 30}
+        - {x: 56, y: 30}
+      - - {x: 58, y: 50}
+        - {x: 58, y: 38}
+        - {x: 60, y: 37}
+        - {x: 64, y: 38}
+        - {x: 64, y: 50}
+      - - {x: 36, y: 67}
+        - {x: 36, y: 62}
+        - {x: 59, y: 50}
+        - {x: 64, y: 50}
+        - {x: 65, y: 51}
+        - {x: 66, y: 54}
+        - {x: 66, y: 67}
+    - name: Sonic Spritesheet Edited_273
       rect:
         serializedVersion: 2
         x: 131
@@ -3842,9 +4156,7 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Sonic Spritesheet Edited_274
+    - name: Sonic Spritesheet Edited_274
       rect:
         serializedVersion: 2
         x: 163
@@ -3854,10 +4166,14 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Sonic Spritesheet Edited_275
+      outline:
+      - - {x: -16, y: 24}
+        - {x: -16, y: -17}
+        - {x: -10, y: -24}
+        - {x: 16, y: -24}
+        - {x: 16, y: 23}
+        - {x: 13, y: 24}
+    - name: Sonic Spritesheet Edited_275
       rect:
         serializedVersion: 2
         x: 196
@@ -3867,10 +4183,14 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Sonic Spritesheet Edited_281
+      outline:
+      - - {x: -16.5, y: 24}
+        - {x: -16.5, y: 0}
+        - {x: -13.5, y: -14}
+        - {x: -8.5, y: -24}
+        - {x: 16.5, y: -24}
+        - {x: 16.5, y: 24}
+    - name: Sonic Spritesheet Edited_281
       rect:
         serializedVersion: 2
         x: 411
@@ -3881,9 +4201,7 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Sonic Spritesheet Edited_282
+    - name: Sonic Spritesheet Edited_282
       rect:
         serializedVersion: 2
         x: 447
@@ -3894,9 +4212,7 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Sonic Spritesheet Edited_284
+    - name: Sonic Spritesheet Edited_284
       rect:
         serializedVersion: 2
         x: 468
@@ -3907,9 +4223,7 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Sonic Spritesheet Edited_286
+    - name: Sonic Spritesheet Edited_286
       rect:
         serializedVersion: 2
         x: 486
@@ -3920,9 +4234,7 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Sonic Spritesheet Edited_287
+    - name: Sonic Spritesheet Edited_287
       rect:
         serializedVersion: 2
         x: 502
@@ -3932,10 +4244,40 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Sonic Spritesheet Edited_288
+      outline:
+      - - {x: -27, y: 16}
+        - {x: -27, y: 11}
+        - {x: -26, y: 10}
+        - {x: -23, y: 10}
+        - {x: -24, y: -31}
+        - {x: -18, y: -40}
+        - {x: 12, y: -40}
+        - {x: 14, y: -29}
+        - {x: 14, y: 0}
+        - {x: -2, y: 16}
+      - - {x: 1, y: 16}
+        - {x: 0, y: 15}
+        - {x: 0, y: 12}
+        - {x: 1, y: 10}
+        - {x: 16, y: 10}
+        - {x: 16, y: 16}
+      - - {x: 24, y: 31}
+        - {x: 26, y: 29}
+        - {x: 27, y: 29}
+        - {x: 27, y: 36}
+        - {x: 24, y: 35}
+      - - {x: -27, y: 40}
+        - {x: -27, y: 35}
+        - {x: -3, y: 35}
+        - {x: -1, y: 37}
+        - {x: -2, y: 40}
+      - - {x: 0, y: 40}
+        - {x: 0, y: 37}
+        - {x: 1, y: 35}
+        - {x: 23, y: 35}
+        - {x: 24, y: 37}
+        - {x: 23, y: 40}
+    - name: Sonic Spritesheet Edited_288
       rect:
         serializedVersion: 2
         x: 2
@@ -3945,10 +4287,14 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Sonic Spritesheet Edited_289
+      outline:
+      - - {x: -22, y: 34.5}
+        - {x: -22, y: -34.5}
+        - {x: 10, y: -34.5}
+        - {x: 22, y: -7.5}
+        - {x: 22, y: 30.5}
+        - {x: 20, y: 34.5}
+    - name: Sonic Spritesheet Edited_289
       rect:
         serializedVersion: 2
         x: 47
@@ -3958,10 +4304,15 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Sonic Spritesheet Edited_291
+      outline:
+      - - {x: -31, y: 61.5}
+        - {x: -41, y: 57.5}
+        - {x: -41, y: -3.5}
+        - {x: -19, y: -61.5}
+        - {x: 39, y: -61.5}
+        - {x: 41, y: -35.5}
+        - {x: 41, y: 61.5}
+    - name: Sonic Spritesheet Edited_291
       rect:
         serializedVersion: 2
         x: 264
@@ -3971,10 +4322,21 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
-    - serializedVersion: 2
-      name: Sonic Spritesheet Edited_292
+      outline:
+      - - {x: -37, y: 43}
+        - {x: -40, y: 39}
+        - {x: -40, y: -38}
+        - {x: -39, y: -43}
+        - {x: 27, y: -43}
+        - {x: 40, y: -34}
+        - {x: 40, y: 43}
+      - - {x: -40, y: 42}
+        - {x: -40, y: 35}
+        - {x: -13, y: 35}
+        - {x: -11, y: 37}
+        - {x: -11, y: 40}
+        - {x: -13, y: 42}
+    - name: Sonic Spritesheet Edited_292
       rect:
         serializedVersion: 2
         x: 345
@@ -3984,8 +4346,14 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: -1
+      outline:
+      - - {x: -15.5, y: -45.5}
+        - {x: 31.5, y: -45.5}
+        - {x: 35.5, y: -44.5}
+        - {x: 35.5, y: 45.5}
+        - {x: -23.5, y: 45.5}
+        - {x: -35.5, y: 38.5}
+        - {x: -35.5, y: -31.5}
     outline: []
   spritePackingTag: 
   userData: 

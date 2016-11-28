@@ -11,7 +11,8 @@ public class AudioManager : Singleton<AudioManager>
         Level1BG,
         Jump,
         BeginCharge,
-        ReleaseCharge
+        ReleaseCharge,
+        Break
     }
 
     public void PlayOneShot(AudioClipsEnum audioClip)
