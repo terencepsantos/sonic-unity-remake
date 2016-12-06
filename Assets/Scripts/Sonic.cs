@@ -1,11 +1,13 @@
 ﻿using UnityEngine;
 using System.Collections;
+using System;
 
-public class Sonic : MonoBehaviour
+public class Sonic : MonoBehaviour, ITakeDamage
 {
     #region Private Fields
     private Animator playerAnimator;
     private Rigidbody2D playerRigidbody;
+    private CircleCollider2D playerCollider;
 
     private Coroutine audioBreakOut;
 
@@ -13,6 +15,7 @@ public class Sonic : MonoBehaviour
     private float velocityX;
     private float absoluteMagnitude;
     private bool isGrounded;
+    private bool isInvincible;
 
     [SerializeField]
     private float
@@ -23,12 +26,18 @@ public class Sonic : MonoBehaviour
         jumpForce = 25,
         runVelocityThreshold = 8,
         chargedRunVelocityThreshold = 12,
-        chargedImpulse = 2;
+        chargedImpulse = 2,
+        timeInvincibleAfterDamage = 3.5f;
+
+    private int ringsAmount;
+    private int livesAmount;
 
     #endregion
 
     #region Public Fields and Props
-    public enum State
+    public LevelUIManager LevelUIManagerObj;
+
+    public enum AnimState
     {
         IsIdle,
         IsWalking,
@@ -38,10 +47,12 @@ public class Sonic : MonoBehaviour
         IsCharging,
         IsChargedRunning,
         IsBreaking,
+        IsTakingDamage,
         IsDying
     }
-    public State state { get; private set; }
+    public AnimState animState { get; private set; }
 
+    public int Health { get; set; }
 
     #endregion
 
@@ -50,17 +61,23 @@ public class Sonic : MonoBehaviour
     {
         playerAnimator = GetComponent<Animator>();
         playerRigidbody = GetComponent<Rigidbody2D>();
+        playerCollider = GetComponent<CircleCollider2D>();
 
         gameObject.tag = "Player";
     }
 
     void Start()
     {
-        state = State.IsIdle;
+        animState = AnimState.IsIdle;
         isGrounded = true;
+        isInvincible = false;
+        livesAmount = 1;
+        ringsAmount = 0;
+        UpdateHUDInfo();
 
         AudioManager.Instance.PlayLoop(AudioManager.AudioClipsEnum.Level1BG);
     }
+
 
     void Update()
     {
@@ -77,16 +94,16 @@ public class Sonic : MonoBehaviour
             {
                 velocityX = 0;
 
-                if (state == State.IsIdle || state == State.IsWalking || state == State.IsDucking || state == State.IsJumping)
+                if (animState == AnimState.IsIdle || animState == AnimState.IsWalking || animState == AnimState.IsDucking || animState == AnimState.IsJumping)
                 {
-                    state = State.IsDucking;
+                    animState = AnimState.IsDucking;
                     playerRigidbody.velocity = new Vector2(0, 0);
                 }
 
                 //Charge (to run) State
-                if (Input.GetButtonDown("Fire1") && (state == State.IsDucking || state == State.IsCharging))
+                if (Input.GetButtonDown("Fire1") && (animState == AnimState.IsDucking || animState == AnimState.IsCharging))
                 {
-                    state = State.IsCharging;
+                    animState = AnimState.IsCharging;
                     AudioManager.Instance.PlayOneShot(AudioManager.AudioClipsEnum.BeginCharge);
                 }
             }
@@ -95,16 +112,16 @@ public class Sonic : MonoBehaviour
                 if (absoluteMagnitude == 0)
                 {
                     //Idle State
-                    if (state == State.IsWalking || state == State.IsJumping || state == State.IsDucking || state == State.IsChargedRunning)
+                    if (animState == AnimState.IsWalking || animState == AnimState.IsJumping || animState == AnimState.IsDucking || animState == AnimState.IsChargedRunning)
                     {
-                        state = State.IsIdle;
+                        animState = AnimState.IsIdle;
                         playerRigidbody.drag = playerNormalDrag;
                     }
 
                     //Charged Run State
-                    if (state == State.IsCharging)
+                    if (animState == AnimState.IsCharging)
                     {
-                        state = State.IsChargedRunning;
+                        animState = AnimState.IsChargedRunning;
                         ChargedRun();
                         playerRigidbody.drag = playerChargedRunningDrag;
                         AudioManager.Instance.PlayOneShot(AudioManager.AudioClipsEnum.ReleaseCharge);
@@ -113,14 +130,14 @@ public class Sonic : MonoBehaviour
                 else if (absoluteMagnitude > 0 && absoluteMagnitude < runVelocityThreshold)
                 {
                     //Walk State
-                    state = State.IsWalking;
+                    animState = AnimState.IsWalking;
                     playerRigidbody.drag = playerNormalDrag;
                     CheckAndTurnPlayerSprite();
                 }
                 else if (absoluteMagnitude > runVelocityThreshold && absoluteMagnitude < chargedRunVelocityThreshold)
                 {
                     //Run State
-                    state = State.IsRunning;
+                    animState = AnimState.IsRunning;
                     playerRigidbody.drag = playerNormalDrag;
                     CheckAndTurnPlayerSprite();
                 }
@@ -130,7 +147,7 @@ public class Sonic : MonoBehaviour
             if (Input.GetButtonDown("Jump"))
             {
                 if (absoluteMagnitude < chargedRunVelocityThreshold)
-                    state = State.IsJumping;
+                    animState = AnimState.IsJumping;
 
                 Jump();
                 isGrounded = false;
@@ -142,17 +159,7 @@ public class Sonic : MonoBehaviour
             acceleration = airAcceleration;
         }
 
-
-        //Updating Animator Conditions
-        playerAnimator.SetBool("IsIdle", state == State.IsIdle);
-        playerAnimator.SetBool("IsWalking", state == State.IsWalking);
-        playerAnimator.SetBool("IsRunning", state == State.IsRunning);
-        playerAnimator.SetBool("IsJumping", state == State.IsJumping);
-        playerAnimator.SetBool("IsDucking", state == State.IsDucking);
-        playerAnimator.SetBool("IsCharging", state == State.IsCharging);
-        playerAnimator.SetBool("IsChargedRunning", state == State.IsChargedRunning);
-        playerAnimator.SetBool("IsBreaking", state == State.IsBreaking);
-        //playerAnimator.SetBool("IsDying", state == State.IsDying);
+        UpdateAnimConditions();
     }
 
 
@@ -187,6 +194,22 @@ public class Sonic : MonoBehaviour
             transform.up = Vector3.Lerp(transform.up, Vector3.up, Time.fixedDeltaTime * 10);
         }
 
+    }
+
+
+    private void UpdateAnimConditions()
+    {
+        //Updating Animator Conditions
+        playerAnimator.SetBool("IsIdle", animState == AnimState.IsIdle);
+        playerAnimator.SetBool("IsWalking", animState == AnimState.IsWalking);
+        playerAnimator.SetBool("IsRunning", animState == AnimState.IsRunning);
+        playerAnimator.SetBool("IsJumping", animState == AnimState.IsJumping);
+        playerAnimator.SetBool("IsDucking", animState == AnimState.IsDucking);
+        playerAnimator.SetBool("IsCharging", animState == AnimState.IsCharging);
+        playerAnimator.SetBool("IsChargedRunning", animState == AnimState.IsChargedRunning);
+        playerAnimator.SetBool("IsBreaking", animState == AnimState.IsBreaking);
+        playerAnimator.SetBool("IsTakingDamage", animState == AnimState.IsTakingDamage);
+        playerAnimator.SetBool("IsDying", animState == AnimState.IsDying);
     }
 
 
@@ -237,8 +260,90 @@ public class Sonic : MonoBehaviour
     void OnTriggerEnter2D(Collider2D coll)
     {
         if (coll.CompareTag("Ring"))
+            CollectedRing();
+
+        if (coll.CompareTag("EnemyBullet"))
+            TakeDamage();
+    }
+
+
+    private void CollectedRing()
+    {
+        ringsAmount++;
+        AudioManager.Instance.PlayOneShot(AudioManager.AudioClipsEnum.RingCollect);
+
+        if (animState != AnimState.IsDying && Health <= 1)
+            Health++;
+
+        if (ringsAmount >= 100)
         {
-            //TODO: Increase Ring count in HUD
+            livesAmount++;
+            ringsAmount = 0;
+            AudioManager.Instance.PlayOneShot(AudioManager.AudioClipsEnum.LifeUp);
         }
+
+        UpdateHUDInfo();
+    }
+
+
+    public void TakeDamage()
+    {
+        if (isInvincible)
+            return;
+
+        Debug.Log("Take Damage");
+
+        isInvincible = true;
+        Health--;
+        animState = AnimState.IsTakingDamage;
+
+        if (Health <= 0)
+        {
+            Death();
+            return;
+        }
+
+        ScatterRings();
+        Invoke("ResetInvincibleState", timeInvincibleAfterDamage);
+    }
+
+
+    private void ScatterRings()
+    {
+        Debug.Log("Scatter Rings");
+        //TODO
+        ringsAmount = 0;
+        UpdateHUDInfo();
+    }
+
+
+    public void Death()
+    {
+        Debug.Log("Death");
+
+        animState = AnimState.IsDying;
+        playerCollider.enabled = false;
+
+        livesAmount--;
+        UpdateHUDInfo();
+    }
+
+
+    private void ResetInvincibleState()
+    {
+        isInvincible = false;
+    }
+
+
+    public void SetInitialHealth()
+    {
+        Health = 1;
+    }
+
+
+    private void UpdateHUDInfo()
+    {
+        LevelUIManagerObj.RingsAmount.text = ringsAmount.ToString();
+        LevelUIManagerObj.LivesAmount.text = livesAmount.ToString();
     }
 }

@@ -12,7 +12,9 @@ public class AudioManager : Singleton<AudioManager>
         Jump,
         BeginCharge,
         ReleaseCharge,
-        Break
+        Break,
+        RingCollect,
+        LifeUp
     }
 
     public void PlayOneShot(AudioClipsEnum audioClip)

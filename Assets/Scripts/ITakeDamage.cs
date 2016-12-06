@@ -1,7 +1,11 @@
 ﻿
+using System;
+
 public interface ITakeDamage
 {
-    float Health { get; set; }
+    int Health { get; set; }
+
+    void SetInitialHealth();
 
     void TakeDamage();
 

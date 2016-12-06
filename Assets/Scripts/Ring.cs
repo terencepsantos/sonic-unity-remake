@@ -3,18 +3,14 @@ using System.Collections;
 
 public class Ring : MonoBehaviour 
 {
-    private SpriteRenderer ringSpriteRenderer;
-    private ParticleSystem ringParticleSystem;
-    private Collider2D ringCollider;
+    public SpriteRenderer RingSpriteRenderer;
+    public ParticleSystem RingParticleSystem;
+    public Collider2D RingCollider;
 
 
     void Awake()
     {
         gameObject.tag = "Ring";
-
-        ringSpriteRenderer.GetComponent<SpriteRenderer>();
-        ringParticleSystem.GetComponent<ParticleSystem>();
-        ringCollider.GetComponent<Collider2D>();
     }
 
 
@@ -22,9 +18,10 @@ public class Ring : MonoBehaviour
     {
         if (coll.CompareTag("Player"))
         {
-            ringSpriteRenderer.enabled = false;
-            ringParticleSystem.Emit(1);
-            Destroy(gameObject, ringParticleSystem.duration + 0.1f);
+            RingSpriteRenderer.enabled = false;
+            RingCollider.enabled = false;
+            RingParticleSystem.Emit(1);
+            Destroy(gameObject, RingParticleSystem.duration + 0.1f);
         }
     }
 }
