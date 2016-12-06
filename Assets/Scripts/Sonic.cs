@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
-using System;
+//using System;
 
 public class Sonic : MonoBehaviour, ITakeDamage
 {
@@ -29,6 +29,9 @@ public class Sonic : MonoBehaviour, ITakeDamage
         chargedImpulse = 2,
         timeInvincibleAfterDamage = 3.5f;
 
+    [SerializeField]
+    private int maxRingsAmountFromDamage = 10;
+
     private int ringsAmount;
     private int livesAmount;
 
@@ -36,6 +39,7 @@ public class Sonic : MonoBehaviour, ITakeDamage
 
     #region Public Fields and Props
     public LevelUIManager LevelUIManagerObj;
+    public GameObject RingPrefab;
 
     public enum AnimState
     {
@@ -89,6 +93,12 @@ public class Sonic : MonoBehaviour, ITakeDamage
         {
             acceleration = groundAcceleration;
 
+            //Taking Damage State
+            if (animState == AnimState.IsTakingDamage)
+            {
+                velocityX = 0;
+            }
+
             //Duck State
             if (Input.GetAxisRaw("Vertical") < 0)
             {
@@ -112,7 +122,9 @@ public class Sonic : MonoBehaviour, ITakeDamage
                 if (absoluteMagnitude == 0)
                 {
                     //Idle State
-                    if (animState == AnimState.IsWalking || animState == AnimState.IsJumping || animState == AnimState.IsDucking || animState == AnimState.IsChargedRunning)
+                    if (animState == AnimState.IsWalking || animState == AnimState.IsJumping ||
+                        animState == AnimState.IsDucking || animState == AnimState.IsChargedRunning ||
+                        animState == AnimState.IsTakingDamage)
                     {
                         animState = AnimState.IsIdle;
                         playerRigidbody.drag = playerNormalDrag;
@@ -238,6 +250,15 @@ public class Sonic : MonoBehaviour, ITakeDamage
     }
 
 
+    private void JumpBackFromDamage()
+    {
+        playerRigidbody.AddForce(Vector2.up * (jumpForce / 2), ForceMode2D.Impulse);
+
+        var newVector = gameObject.transform.localScale.x >= 0 ? Vector2.left : Vector2.right;
+        playerRigidbody.AddForce(newVector * (jumpForce / 2), ForceMode2D.Impulse);
+    }
+
+
     private void ChargedRun()
     {
         if (gameObject.transform.localScale.x == 1)
@@ -294,7 +315,8 @@ public class Sonic : MonoBehaviour, ITakeDamage
         Debug.Log("Take Damage");
 
         isInvincible = true;
-        Health--;
+        //Health--;
+        JumpBackFromDamage();
         animState = AnimState.IsTakingDamage;
 
         if (Health <= 0)
@@ -312,6 +334,24 @@ public class Sonic : MonoBehaviour, ITakeDamage
     {
         Debug.Log("Scatter Rings");
         //TODO
+
+        int ringsAmountFromDamage = ringsAmount <= maxRingsAmountFromDamage ? ringsAmount : maxRingsAmountFromDamage;
+
+        
+        for (int i = 0; i < ringsAmountFromDamage; i++)
+        {
+            float[] randomForces = new float[3];
+
+            randomForces[0] = Random.Range(jumpForce / 2, jumpForce); //Force for X
+            randomForces[1] = Random.Range(jumpForce / 2, jumpForce); //Force for Y
+            randomForces[2] = gameObject.transform.localScale.x >= 0 ? -1 : 1; //Direction to throw rings
+
+            var obj = Instantiate(RingPrefab, gameObject.transform, true) as GameObject;
+            obj.SendMessage("InstantiateScatteredRings", randomForces);
+            //var objScript = obj.GetComponent<Ring>();
+            //objScript.InstantiateScatteredRings(randomForces);
+        }
+
         ringsAmount = 0;
         UpdateHUDInfo();
     }

@@ -6,11 +6,19 @@ public class Ring : MonoBehaviour
     public SpriteRenderer RingSpriteRenderer;
     public ParticleSystem RingParticleSystem;
     public Collider2D RingCollider;
+    public Rigidbody2D RingRigidbody2D;
 
 
     void Awake()
     {
         gameObject.tag = "Ring";
+    }
+
+
+    public void InstantiateScatteredRings(float[] randomForces)
+    {
+        RingRigidbody2D.isKinematic = false;
+        RingRigidbody2D.AddForce(new Vector2(randomForces[0] * randomForces[2], randomForces[1] * randomForces[2]));
     }
 
 
