@@ -30,7 +30,9 @@ public class Sonic : MonoBehaviour, ITakeDamage
         timeInvincibleAfterDamage = 3.5f;
 
     [SerializeField]
-    private int maxRingsAmountFromDamage = 10;
+    private int
+        maxRingsAmountFromDamage = 10,
+        scorePerRing = 50;
 
     private int ringsAmount;
     private int livesAmount;
@@ -39,7 +41,8 @@ public class Sonic : MonoBehaviour, ITakeDamage
     #endregion
 
     #region Public Fields and Props
-    public LevelUIManager LevelUIManagerObj;
+    //public LevelUIManager LevelUIManagerObj;
+    public SpriteRenderer PlayerSpriteRenderer;
     public GameObject RingPrefab;
 
     public enum AnimState
@@ -74,6 +77,7 @@ public class Sonic : MonoBehaviour, ITakeDamage
     void Start()
     {
         animState = AnimState.IsIdle;
+        SetInitialHealth(1);
         isGrounded = true;
         isInvincible = false;
         livesAmount = 1;
@@ -206,7 +210,6 @@ public class Sonic : MonoBehaviour, ITakeDamage
             //transform.up = Vector3.up;
             transform.up = Vector3.Lerp(transform.up, Vector3.up, Time.fixedDeltaTime * 10);
         }
-
     }
 
 
@@ -270,27 +273,11 @@ public class Sonic : MonoBehaviour, ITakeDamage
     }
 
 
-    void OnCollisionEnter2D(Collision2D coll)
+    private void CollectedRing(bool isRingRespawn)
     {
-        if (coll.gameObject.layer == 8)
-        {
-            isGrounded = true;
-        }
-    }
+        if (!isRingRespawn)
+            scoreAmount += scorePerRing;
 
-
-    void OnTriggerEnter2D(Collider2D coll)
-    {
-        if (coll.CompareTag("Ring"))
-            CollectedRing();
-
-        if (coll.CompareTag("EnemyBullet"))
-            TakeDamage();
-    }
-
-
-    private void CollectedRing()
-    {
         ringsAmount++;
         AudioManager.Instance.PlayOneShot(AudioManager.AudioClipsEnum.RingCollect);
 
@@ -313,10 +300,8 @@ public class Sonic : MonoBehaviour, ITakeDamage
         if (isInvincible)
             return;
 
-        Debug.Log("Take Damage");
-
         isInvincible = true;
-        //Health--;
+        Health--;
         JumpBackFromDamage();
         animState = AnimState.IsTakingDamage;
 
@@ -328,14 +313,24 @@ public class Sonic : MonoBehaviour, ITakeDamage
 
         ScatterRings();
         Invoke("ResetInvincibleState", timeInvincibleAfterDamage);
+        StartCoroutine(PlayerBlink());
+    }
+
+
+    private IEnumerator PlayerBlink()
+    {
+        while (isInvincible)
+        {
+            PlayerSpriteRenderer.enabled = !PlayerSpriteRenderer.enabled;
+            yield return new WaitForSeconds(0.1f);
+        }
+
+        PlayerSpriteRenderer.enabled = true;
     }
 
 
     private void ScatterRings()
     {
-        Debug.Log("Scatter Rings");
-        //TODO
-
         int ringsAmountFromDamage = ringsAmount <= maxRingsAmountFromDamage ? ringsAmount : maxRingsAmountFromDamage;
 
         
@@ -348,9 +343,7 @@ public class Sonic : MonoBehaviour, ITakeDamage
             randomForces[2] = gameObject.transform.localScale.x >= 0 ? -1 : 1; //Direction to throw rings
 
             var obj = Instantiate(RingPrefab, gameObject.transform.localPosition, Quaternion.identity) as GameObject;
-            obj.SendMessage("MoveScatteredRings", randomForces);
-            //var objScript = obj.GetComponent<Ring>();
-            //objScript.InstantiateScatteredRings(randomForces);
+            obj.SendMessage("ScatteredRings", randomForces);
         }
 
         ringsAmount = 0;
@@ -360,8 +353,6 @@ public class Sonic : MonoBehaviour, ITakeDamage
 
     public void Death()
     {
-        Debug.Log("Death");
-
         animState = AnimState.IsDying;
         playerCollider.enabled = false;
 
@@ -376,16 +367,57 @@ public class Sonic : MonoBehaviour, ITakeDamage
     }
 
 
-    public void SetInitialHealth()
+    public void SetInitialHealth(int initialHealth)
     {
-        Health = 1;
+        Health = initialHealth;
     }
 
 
     private void UpdateHUDInfo()
     {
-        LevelUIManagerObj.RingsAmount.text = ringsAmount.ToString();
-        LevelUIManagerObj.LivesAmount.text = livesAmount.ToString();
-        LevelUIManagerObj.ScoreAmount.text = scoreAmount.ToString();
+        LevelUIManager.Instance.RingsAmount.text = ringsAmount.ToString();
+        LevelUIManager.Instance.LivesAmount.text = livesAmount.ToString();
+        LevelUIManager.Instance.ScoreAmount.text = scoreAmount.ToString();
     }
+
+
+    #region Collisions
+
+    void OnCollisionEnter2D(Collision2D coll)
+    {
+        if (coll.gameObject.layer == 8)
+        {
+            isGrounded = true;
+        }
+
+        if (coll.gameObject.CompareTag("Enemy"))
+        {
+            if (animState == AnimState.IsIdle || animState == AnimState.IsWalking ||
+                animState == AnimState.IsRunning || animState == AnimState.IsDucking ||
+                animState == AnimState.IsBreaking)
+            {
+                TakeDamage();
+            }
+            else
+            {
+                coll.collider.enabled = false;
+                coll.gameObject.SendMessage("TakeDamage");
+            }
+        }
+    }
+
+
+    void OnTriggerEnter2D(Collider2D coll)
+    {
+        if (coll.CompareTag("Ring"))
+            CollectedRing(false);
+
+        if (coll.CompareTag("RingRespawn"))
+            CollectedRing(true);
+
+        if (coll.CompareTag("EnemyBullet"))
+            TakeDamage();
+    }
+
+    #endregion
 }

@@ -10,6 +10,7 @@ public class LevelUIManager : MonoBehaviour
     public Text LivesAmount;
     public Text ScoreAmount;
 
+
     void Awake()
     {
         if (Instance == null)

@@ -5,7 +5,7 @@ public interface ITakeDamage
 {
     int Health { get; set; }
 
-    void SetInitialHealth();
+    void SetInitialHealth(int initialHealth);
 
     void TakeDamage();
 

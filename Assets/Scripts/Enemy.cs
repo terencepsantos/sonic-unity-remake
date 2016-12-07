@@ -8,7 +8,9 @@ public class Enemy : MonoBehaviour, ITakeDamage
     private float bulletsRotation = 40;
 
     public Transform[] BulletsStartingPoints;
+    public SpriteRenderer EnemySpriteRenderer;
     public GameObject EnemyBulletPrefab;
+    public GameObject RingPrefab;
 
     public enum AnimState
     {
@@ -19,6 +21,13 @@ public class Enemy : MonoBehaviour, ITakeDamage
     public AnimState animState { get; private set; }
 
     public int Health { get; set; }
+
+
+    void Awake()
+    {
+        gameObject.tag = "Enemy";
+        SetInitialHealth(1);
+    }
 
 
     public void FireBullets()
@@ -43,10 +52,16 @@ public class Enemy : MonoBehaviour, ITakeDamage
     public void Death()
     {
         animState = AnimState.IsIdle;
+        EnemySpriteRenderer.enabled = false;
+
+        var obj = Instantiate(RingPrefab, gameObject.transform.localPosition, Quaternion.identity) as GameObject;
+
+        Destroy(transform.parent.gameObject);
     }
 
-    public void SetInitialHealth()
+
+    public void SetInitialHealth(int initialHealth)
     {
-        Health = 1;
+        Health = initialHealth;
     }
 }
