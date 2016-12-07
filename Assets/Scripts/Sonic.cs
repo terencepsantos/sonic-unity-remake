@@ -34,6 +34,7 @@ public class Sonic : MonoBehaviour, ITakeDamage
 
     private int ringsAmount;
     private int livesAmount;
+    private int scoreAmount;
 
     #endregion
 
@@ -342,12 +343,12 @@ public class Sonic : MonoBehaviour, ITakeDamage
         {
             float[] randomForces = new float[3];
 
-            randomForces[0] = Random.Range(jumpForce / 2, jumpForce); //Force for X
-            randomForces[1] = Random.Range(jumpForce / 2, jumpForce); //Force for Y
+            randomForces[0] = Random.Range(jumpForce / 3, jumpForce / 2); //Force for X
+            randomForces[1] = Random.Range(jumpForce / 3, jumpForce / 2); //Force for Y
             randomForces[2] = gameObject.transform.localScale.x >= 0 ? -1 : 1; //Direction to throw rings
 
-            var obj = Instantiate(RingPrefab, gameObject.transform, true) as GameObject;
-            obj.SendMessage("InstantiateScatteredRings", randomForces);
+            var obj = Instantiate(RingPrefab, gameObject.transform.localPosition, Quaternion.identity) as GameObject;
+            obj.SendMessage("MoveScatteredRings", randomForces);
             //var objScript = obj.GetComponent<Ring>();
             //objScript.InstantiateScatteredRings(randomForces);
         }
@@ -385,5 +386,6 @@ public class Sonic : MonoBehaviour, ITakeDamage
     {
         LevelUIManagerObj.RingsAmount.text = ringsAmount.ToString();
         LevelUIManagerObj.LivesAmount.text = livesAmount.ToString();
+        LevelUIManagerObj.ScoreAmount.text = scoreAmount.ToString();
     }
 }
