@@ -8,13 +8,16 @@ public class AudioManager : Singleton<AudioManager>
     public AudioClip[] AudioClipsArray;
     public enum AudioClipsEnum
     {
+        Sega,
         Level1BG,
         Jump,
         BeginCharge,
         ReleaseCharge,
         Break,
         RingCollect,
-        LifeUp
+        LifeUp,
+        TakeDamage,
+        KillEnemy
     }
 
     public void PlayOneShot(AudioClipsEnum audioClip)
@@ -32,6 +35,22 @@ public class AudioManager : Singleton<AudioManager>
         go.SendMessage("PlayLoop", AudioClipsArray[(int)audioClip]);
     }
 
+
+    public void WaitAndPlayOneShot(AudioClipsEnum audioClip, float secondsToWait)
+    {
+        StartCoroutine(PlayOneShot(audioClip, secondsToWait));
+    }
+
+
+    private IEnumerator PlayOneShot(AudioClipsEnum audioClip, float secondsToWait)
+    {
+        var go = new GameObject("AudioEvent");
+        go.AddComponent<AudioEvent>();
+
+        yield return new WaitForSeconds(secondsToWait);
+
+        go.SendMessage("PlayOneShot", AudioClipsArray[(int)audioClip]);
+    }
 
     //TODO: Create AudioSetup class in order to send clip and optionally a set of values (volume etc.)
 

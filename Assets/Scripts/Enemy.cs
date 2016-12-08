@@ -52,9 +52,10 @@ public class Enemy : MonoBehaviour, ITakeDamage
     public void Death()
     {
         animState = AnimState.IsIdle;
+        AudioManager.Instance.PlayOneShot(AudioManager.AudioClipsEnum.KillEnemy);
         EnemySpriteRenderer.enabled = false;
 
-        var obj = Instantiate(RingPrefab, gameObject.transform.localPosition, Quaternion.identity) as GameObject;
+        var obj = Instantiate(RingPrefab, gameObject.transform.position, Quaternion.identity) as GameObject;
 
         Destroy(transform.parent.gameObject);
     }

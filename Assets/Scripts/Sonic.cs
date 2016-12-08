@@ -304,6 +304,7 @@ public class Sonic : MonoBehaviour, ITakeDamage
         Health--;
         JumpBackFromDamage();
         animState = AnimState.IsTakingDamage;
+        AudioManager.Instance.PlayOneShot(AudioManager.AudioClipsEnum.TakeDamage);
 
         if (Health <= 0)
         {
