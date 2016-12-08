@@ -17,7 +17,8 @@ public class AudioManager : Singleton<AudioManager>
         RingCollect,
         LifeUp,
         TakeDamage,
-        KillEnemy
+        KillEnemy,
+        MenuBG
     }
 
     public void PlayOneShot(AudioClipsEnum audioClip)

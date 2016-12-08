@@ -3,6 +3,11 @@ using System.Collections;
 
 public class Menu : MonoBehaviour 
 {
+    void Start()
+    {
+        AudioManager.Instance.PlayLoop(AudioManager.AudioClipsEnum.MenuBG);
+    }
+
     public void ButtonPlay()
     {
         MyLoading.LoadLevel("03_Level");
