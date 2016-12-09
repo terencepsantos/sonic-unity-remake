@@ -3,14 +3,13 @@ guid: b83ad5aa2ef9484448888e7f6486b606
 timeCreated: 1481041305
 licenseType: Free
 TrueTypeFontImporter:
-  serializedVersion: 4
+  serializedVersion: 3
   fontSize: 16
   forceTextureCase: -2
   characterSpacing: 0
   characterPadding: 1
   includeFontData: 1
-  fontNames:
-  - Sonic Title Font
+  fontNames: []
   fallbackFontReferences: []
   customCharacters: 
   fontRenderingMode: 0

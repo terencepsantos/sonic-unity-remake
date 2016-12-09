@@ -3,14 +3,13 @@ guid: cf2343afb63699748abdc274712de4e2
 timeCreated: 1481041852
 licenseType: Free
 TrueTypeFontImporter:
-  serializedVersion: 4
+  serializedVersion: 3
   fontSize: 16
   forceTextureCase: -2
   characterSpacing: 0
   characterPadding: 1
   includeFontData: 1
-  fontNames:
-  - Sonic HUD Font
+  fontNames: []
   fallbackFontReferences: []
   customCharacters: 
   fontRenderingMode: 0

@@ -9,6 +9,7 @@ public class ChangeLevel : MonoBehaviour
 
     [Space(10)]
     public bool LoadNextLevelThruMyLoading = true;
+    public bool LoadNextLevelAutomatically = true;
 
     [Header("Fade In/Out Stuff")]
     public float FadeDurationInSeconds = 1.0f;
@@ -30,10 +31,13 @@ public class ChangeLevel : MonoBehaviour
 
     void Start()
     {
-        if (!LoadNextLevelWithFade)
-            Invoke("LoadOtherScene", SecondsToOtherLevel);
-        else
-            Invoke("FadeOut", SecondsToOtherLevel);
+        if (LoadNextLevelAutomatically)
+        {
+            if (!LoadNextLevelWithFade)
+                Invoke("LoadOtherScene", SecondsToOtherLevel);
+            else
+                Invoke("FadeOut", SecondsToOtherLevel);
+        }
     }
 
 
@@ -46,7 +50,7 @@ public class ChangeLevel : MonoBehaviour
     }
 
 
-    private void FadeOut()
+    public void FadeOut()
     {
         Instantiate(FadeOutPrefab);
         Invoke("LoadOtherScene", FadeDurationInSeconds);

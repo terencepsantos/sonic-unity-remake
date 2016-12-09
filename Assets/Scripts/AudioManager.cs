@@ -18,7 +18,8 @@ public class AudioManager : Singleton<AudioManager>
         LifeUp,
         TakeDamage,
         KillEnemy,
-        MenuBG
+        MenuBG,
+        PlayerDeath
     }
 
     public void PlayOneShot(AudioClipsEnum audioClip)

@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using System;
 //using System;
 
 public class Sonic : MonoBehaviour, ITakeDamage
@@ -41,9 +42,10 @@ public class Sonic : MonoBehaviour, ITakeDamage
     #endregion
 
     #region Public Fields and Props
-    //public LevelUIManager LevelUIManagerObj;
+    public CamPlayer CamPlayerObj;
     public SpriteRenderer PlayerSpriteRenderer;
     public GameObject RingPrefab;
+    public GameObject FadeOutPrefab;
 
     public enum AnimState
     {
@@ -80,9 +82,10 @@ public class Sonic : MonoBehaviour, ITakeDamage
         SetInitialHealth(1);
         isGrounded = true;
         isInvincible = false;
-        livesAmount = 1;
-        ringsAmount = 0;
-        UpdateHUDInfo();
+
+        CamPlayerObj.enabled = true;
+
+        SetPlayerInitialHUDStatus();
 
         AudioManager.Instance.PlayLoop(AudioManager.AudioClipsEnum.Level1BG);
     }
@@ -105,7 +108,7 @@ public class Sonic : MonoBehaviour, ITakeDamage
             }
 
             //Duck State
-            if (Input.GetAxisRaw("Vertical") < 0)
+            if (Input.GetAxisRaw("Vertical") < 0 && absoluteMagnitude == 0)
             {
                 velocityX = 0;
 
@@ -229,6 +232,16 @@ public class Sonic : MonoBehaviour, ITakeDamage
     }
 
 
+    private void SetPlayerInitialHUDStatus()
+    {
+        //Getting Player HUD info from GameManager
+        livesAmount = GameManager.Instance.LivesAmount;
+        scoreAmount = GameManager.Instance.ScoreAmount;
+        ringsAmount = GameManager.Instance.RingsAmount;
+        UpdateHUDInfo();
+    }
+
+
     private IEnumerator OneShotBreak()
     {
         AudioManager.Instance.PlayOneShot(AudioManager.AudioClipsEnum.Break);
@@ -304,7 +317,6 @@ public class Sonic : MonoBehaviour, ITakeDamage
         Health--;
         JumpBackFromDamage();
         animState = AnimState.IsTakingDamage;
-        AudioManager.Instance.PlayOneShot(AudioManager.AudioClipsEnum.TakeDamage);
 
         if (Health <= 0)
         {
@@ -312,6 +324,7 @@ public class Sonic : MonoBehaviour, ITakeDamage
             return;
         }
 
+        AudioManager.Instance.PlayOneShot(AudioManager.AudioClipsEnum.TakeDamage);
         ScatterRings();
         Invoke("ResetInvincibleState", timeInvincibleAfterDamage);
         StartCoroutine(PlayerBlink());
@@ -339,8 +352,8 @@ public class Sonic : MonoBehaviour, ITakeDamage
         {
             float[] randomForces = new float[3];
 
-            randomForces[0] = Random.Range(jumpForce / 3, jumpForce / 2); //Force for X
-            randomForces[1] = Random.Range(jumpForce / 3, jumpForce / 2); //Force for Y
+            randomForces[0] = UnityEngine.Random.Range(jumpForce / 3, jumpForce / 2); //Force for X
+            randomForces[1] = UnityEngine.Random.Range(jumpForce / 3, jumpForce / 2); //Force for Y
             randomForces[2] = gameObject.transform.localScale.x >= 0 ? -1 : 1; //Direction to throw rings
 
             var obj = Instantiate(RingPrefab, gameObject.transform.localPosition, Quaternion.identity) as GameObject;
@@ -356,9 +369,35 @@ public class Sonic : MonoBehaviour, ITakeDamage
     {
         animState = AnimState.IsDying;
         playerCollider.enabled = false;
+        AudioManager.Instance.PlayOneShot(AudioManager.AudioClipsEnum.PlayerDeath);
+
+        CamPlayerObj.enabled = false;
+        playerRigidbody.AddForce(Vector2.up * (jumpForce / 2), ForceMode2D.Impulse);
 
         livesAmount--;
-        UpdateHUDInfo();
+        SavePlayerCurrentStatus(livesAmount, scoreAmount, ringsAmount);
+        Invoke("CheckLivesForRespawn", 1.5f);
+    }
+
+
+    private void CheckLivesForRespawn()
+    {
+        Instantiate(FadeOutPrefab);
+
+        if (livesAmount <= 0)
+        {
+            //TODO: Game Over
+        }
+        else
+        {
+            
+        }
+    }
+
+
+    private void SavePlayerCurrentStatus(int lives, int score, int rings)
+    {
+        GameManager.Instance.SetPlayerCurrentStatus(lives, score, rings);
     }
 
 
