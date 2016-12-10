@@ -24,7 +24,8 @@ public class ChangeLevel : MonoBehaviour
         if (LoadThisLevelWithFade)
         {
             SecondsToOtherLevel += FadeDurationInSeconds;
-            Instantiate(FadeInPrefab);
+            var go = Instantiate(FadeInPrefab) as GameObject;
+            Destroy(go, FadeDurationInSeconds + 0.1f);
         }
     }
 
@@ -50,9 +51,35 @@ public class ChangeLevel : MonoBehaviour
     }
 
 
+    public void LoadOtherScene(string levelToLoad, bool loadNextLevelThruMyLoading)
+    {
+        if (loadNextLevelThruMyLoading)
+            MyLoading.LoadLevel(levelToLoad);
+        else
+            SceneManager.LoadScene(levelToLoad);
+    }
+
+
+    public void WaitAndLoadOtherScene(string levelToLoad, float secondsToWait, bool loadNextLevelThruMyLoading)
+    {
+        StartCoroutine(WaitAndLoadOtherSceneIE(levelToLoad, secondsToWait, loadNextLevelThruMyLoading));
+    }
+
+    private IEnumerator WaitAndLoadOtherSceneIE(string levelToLoad, float secondsToWait, bool loadNextLevelThruMyLoading)
+    {
+        yield return new WaitForSeconds(secondsToWait);
+
+        if (loadNextLevelThruMyLoading)
+            MyLoading.LoadLevel(levelToLoad);
+        else
+            SceneManager.LoadScene(levelToLoad);
+    }
+
+
     public void FadeOut()
     {
-        Instantiate(FadeOutPrefab);
+        var go = Instantiate(FadeOutPrefab) as GameObject;
+        Destroy(go, FadeDurationInSeconds + 0.1f);
         Invoke("LoadOtherScene", FadeDurationInSeconds);
     }
 }

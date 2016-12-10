@@ -1,20 +1,15 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class GameManager : Singleton<GameManager>
+public static class GameManager
 {
-    public int LivesAmount { get; private set; }
-    public int ScoreAmount { get; private set; }
-    public int RingsAmount { get; private set; }
+    public static int LevelLoadCount = 0;
+    public static int LivesAmount { get; private set; }
+    public static int ScoreAmount { get; private set; }
+    public static int RingsAmount { get; private set; }
 
 
-    void Awake()
-    {
-        SetPlayerCurrentStatus(0, 0, 0);
-    }
-
-
-    public void SetPlayerCurrentStatus(int lives, int score, int rings)
+    public static void SetPlayerCurrentStatus(int lives, int score, int rings)
     {
         LivesAmount = lives;
         ScoreAmount = score;

@@ -16,14 +16,14 @@ public class AudioEvent : MonoBehaviour
     void PlayOneShot(AudioClip audioClip)
     {
         audioSourceObj.PlayOneShot(audioClip);
-        Invoke("DestroyAudioClip", audioClip.length + 0.1f);
+        Invoke("DestroyAudioEvent", audioClip.length + 0.1f);
     }
 
 
     void PlayOneShot(AudioClip audioClip, float volume)
     {
         audioSourceObj.PlayOneShot(audioClip, volume);
-        Invoke("DestroyAudioClip", audioClip.length + 0.1f);
+        Invoke("DestroyAudioEvent", audioClip.length + 0.1f);
     }
 
 
@@ -35,7 +35,7 @@ public class AudioEvent : MonoBehaviour
     }
 
 
-    void DestroyAudioClip()
+    void DestroyAudioEvent()
     {
         Destroy(gameObject);
     }

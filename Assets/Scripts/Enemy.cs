@@ -12,6 +12,11 @@ public class Enemy : MonoBehaviour, ITakeDamage
     public GameObject EnemyBulletPrefab;
     public GameObject RingPrefab;
 
+    [Space(10)]
+    public Collider2D EnemyColliderBounce;
+    public Collider2D EnemyCollider2;
+
+
     public enum AnimState
     {
         IsIdle,
@@ -26,6 +31,7 @@ public class Enemy : MonoBehaviour, ITakeDamage
     void Awake()
     {
         gameObject.tag = "Enemy";
+        EnemyCollider2.tag = "EnemyCollider2";
         SetInitialHealth(1);
     }
 
@@ -43,6 +49,7 @@ public class Enemy : MonoBehaviour, ITakeDamage
 
     public void TakeDamage()
     {
+        EnemyColliderBounce.enabled = false;
         Health--;
 
         if (Health <= 0)

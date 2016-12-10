@@ -8,9 +8,13 @@ public class CamPlayer : MonoBehaviour
 
 	void LateUpdate () 
     {
-        transform.position = new Vector3(
-            Target.transform.position.x,
-            Target.transform.position.y,
-            transform.position.z);
-	}
+        if (Target != null)
+        {
+            transform.position = new Vector3(
+                Target.transform.position.x,
+                Target.transform.position.y,
+                transform.position.z);
+        }
+    }
+
 }

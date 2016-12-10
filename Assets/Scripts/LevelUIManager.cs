@@ -10,6 +10,8 @@ public class LevelUIManager : MonoBehaviour
     public Text LivesAmount;
     public Text ScoreAmount;
 
+    public Text ThanksForPlaying;
+
 
     void Awake()
     {
@@ -17,5 +19,7 @@ public class LevelUIManager : MonoBehaviour
             Instance = this;
         else
             Destroy(gameObject);
+
+        ThanksForPlaying.gameObject.SetActive(false);
     }
 }

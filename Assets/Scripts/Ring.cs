@@ -73,6 +73,7 @@ public class Ring : MonoBehaviour
             {
                 RingSpriteRenderer.enabled = false;
                 RingCollider.enabled = false;
+                RingBounceCollider.enabled = false;
                 RingParticleSystem.Emit(1);
                 Destroy(gameObject, RingParticleSystem.duration + 0.1f);
             }

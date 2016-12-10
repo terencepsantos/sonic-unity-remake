@@ -17,6 +17,7 @@ public class Sonic : MonoBehaviour, ITakeDamage
     private float absoluteMagnitude;
     private bool isGrounded;
     private bool isInvincible;
+    private bool isInputBlocked;
 
     [SerializeField]
     private float
@@ -33,7 +34,8 @@ public class Sonic : MonoBehaviour, ITakeDamage
     [SerializeField]
     private int
         maxRingsAmountFromDamage = 10,
-        scorePerRing = 50;
+        scorePerRing = 50,
+        scorePerEnemy = 200;
 
     private int ringsAmount;
     private int livesAmount;
@@ -43,6 +45,7 @@ public class Sonic : MonoBehaviour, ITakeDamage
 
     #region Public Fields and Props
     public CamPlayer CamPlayerObj;
+    public ChangeLevel ChangeLevelObj;
     public SpriteRenderer PlayerSpriteRenderer;
     public GameObject RingPrefab;
     public GameObject FadeOutPrefab;
@@ -76,16 +79,19 @@ public class Sonic : MonoBehaviour, ITakeDamage
         gameObject.tag = "Player";
     }
 
+
     void Start()
     {
-        animState = AnimState.IsIdle;
+        SetPlayerInitialPositionAndState();
         SetInitialHealth(1);
-        isGrounded = true;
-        isInvincible = false;
 
+        GameManager.LevelLoadCount++;
+
+        if (GameManager.LevelLoadCount == 1)
+            GameManager.SetPlayerCurrentStatus(2, 0, 0);
+
+        Invoke("SetPlayerInitialHUDStatus", 0.2f);
         CamPlayerObj.enabled = true;
-
-        SetPlayerInitialHUDStatus();
 
         AudioManager.Instance.PlayLoop(AudioManager.AudioClipsEnum.Level1BG);
     }
@@ -93,9 +99,15 @@ public class Sonic : MonoBehaviour, ITakeDamage
 
     void Update()
     {
+        if (transform.position.y < -8.0f && animState != AnimState.IsDying)
+            Death();
+
         //Horizontal Input
-        velocityX = Input.GetAxis("Horizontal");
-        absoluteMagnitude = Mathf.Abs(playerRigidbody.velocity.magnitude);
+        if (!isInputBlocked)
+        {
+            velocityX = Input.GetAxis("Horizontal");
+            absoluteMagnitude = Mathf.Abs(playerRigidbody.velocity.magnitude);
+        }
 
         if (isGrounded)
         {
@@ -108,7 +120,7 @@ public class Sonic : MonoBehaviour, ITakeDamage
             }
 
             //Duck State
-            if (Input.GetAxisRaw("Vertical") < 0 && absoluteMagnitude == 0)
+            if (Input.GetAxisRaw("Vertical") < 0 && absoluteMagnitude < 0.1f)
             {
                 velocityX = 0;
 
@@ -185,33 +197,36 @@ public class Sonic : MonoBehaviour, ITakeDamage
 
     void FixedUpdate()
     {
-        //playerRigidbody.AddForce(Vector2.right * velocityX * acceleration);
-        playerRigidbody.AddForce(transform.right * velocityX * acceleration);
-
-        //if (playerRigidbody.velocity.x != 0)
-        //    Debug.Log("velocity: " + playerRigidbody.velocity.x);
-
-        //Breaking - State
-        float normvelx = Mathf.Clamp(playerRigidbody.velocity.x, -1, 1);
-        float absdiffx = Mathf.Abs(normvelx - velocityX);
-        //playerAnimator.SetFloat("Break", absdiffx);
-
-        if (absdiffx > 1 && audioBreakOut == null)
-            audioBreakOut = StartCoroutine(OneShotBreak());
-
-        //Check Ground
-        RaycastHit2D hit;
-        hit = Physics2D.Raycast(transform.position, -transform.up);
-
-        if (hit.collider != null) //Grounded
+        if (animState != AnimState.IsDying)
         {
-            //transform.up = hit.normal;
-            transform.up = Vector3.Lerp(transform.up, hit.normal, Time.fixedDeltaTime * 10);
-        }
-        else //In the air
-        {
-            //transform.up = Vector3.up;
-            transform.up = Vector3.Lerp(transform.up, Vector3.up, Time.fixedDeltaTime * 10);
+            //playerRigidbody.AddForce(Vector2.right * velocityX * acceleration);
+            playerRigidbody.AddForce(transform.right * velocityX * acceleration);
+
+            //if (playerRigidbody.velocity.x != 0)
+            //    Debug.Log("velocity: " + playerRigidbody.velocity.x);
+
+            //Breaking - State
+            float normvelx = Mathf.Clamp(playerRigidbody.velocity.x, -1, 1);
+            float absdiffx = Mathf.Abs(normvelx - velocityX);
+            //playerAnimator.SetFloat("Break", absdiffx);
+
+            if (absdiffx > 1 && audioBreakOut == null)
+                audioBreakOut = StartCoroutine(OneShotBreak());
+
+            //Check Ground
+            RaycastHit2D hit;
+            hit = Physics2D.Raycast(transform.position, -transform.up);
+
+            if (hit.collider != null) //Grounded
+            {
+                transform.up = hit.normal;
+                transform.up = Vector3.Lerp(transform.up, hit.normal, Time.fixedDeltaTime * 10);
+            }
+            else //In the air
+            {
+                //transform.up = Vector3.up;
+                transform.up = Vector3.Lerp(transform.up, Vector3.up, Time.fixedDeltaTime * 10);
+            }
         }
     }
 
@@ -235,16 +250,29 @@ public class Sonic : MonoBehaviour, ITakeDamage
     private void SetPlayerInitialHUDStatus()
     {
         //Getting Player HUD info from GameManager
-        livesAmount = GameManager.Instance.LivesAmount;
-        scoreAmount = GameManager.Instance.ScoreAmount;
-        ringsAmount = GameManager.Instance.RingsAmount;
+        livesAmount = GameManager.LivesAmount;
+        scoreAmount = GameManager.ScoreAmount;
+        ringsAmount = GameManager.RingsAmount;
         UpdateHUDInfo();
+    }
+
+
+    private void SetPlayerInitialPositionAndState()
+    {
+        velocityX = 0;
+        animState = AnimState.IsIdle;
+        transform.position = new Vector3(0, 0, 0);
+
+        isGrounded = true;
+        isInvincible = false;
+        isInputBlocked = false;
     }
 
 
     private IEnumerator OneShotBreak()
     {
-        AudioManager.Instance.PlayOneShot(AudioManager.AudioClipsEnum.Break);
+        //Break Sound - TODO: Improvements
+        //AudioManager.Instance.PlayOneShot(AudioManager.AudioClipsEnum.Break);
         yield return new WaitForSeconds(1);
         StopCoroutine(audioBreakOut);
         audioBreakOut = null;
@@ -367,8 +395,11 @@ public class Sonic : MonoBehaviour, ITakeDamage
 
     public void Death()
     {
+        isInputBlocked = true;
+        velocityX = 0;
         animState = AnimState.IsDying;
         playerCollider.enabled = false;
+        AudioManager.Instance.StopLoops();
         AudioManager.Instance.PlayOneShot(AudioManager.AudioClipsEnum.PlayerDeath);
 
         CamPlayerObj.enabled = false;
@@ -380,24 +411,47 @@ public class Sonic : MonoBehaviour, ITakeDamage
     }
 
 
+    private void EndLevel()
+    {
+        isInputBlocked = true;
+        CamPlayerObj.enabled = false;
+        isInputBlocked = true;
+        velocityX = 2;
+        animState = AnimState.IsRunning;
+        AudioManager.Instance.StopLoops();
+        AudioManager.Instance.PlayOneShot(AudioManager.AudioClipsEnum.EndLevelSign);
+        AudioManager.Instance.PlayOneShot(AudioManager.AudioClipsEnum.EndLevelTheme);
+
+        Invoke("TurnOnThanksMessage", 5.3f);
+        ChangeLevelObj.WaitAndLoadOtherScene("02_Menu", 8.3f, true);
+    }
+
+
+    private void TurnOnThanksMessage()
+    {
+        LevelUIManager.Instance.ThanksForPlaying.gameObject.SetActive(true);
+    }
+
+
     private void CheckLivesForRespawn()
     {
         Instantiate(FadeOutPrefab);
 
-        if (livesAmount <= 0)
+        if (livesAmount < 0)
         {
-            //TODO: Game Over
+            GameManager.LevelLoadCount = 0;
+            ChangeLevelObj.WaitAndLoadOtherScene("02_Menu", 1.0f, true);
         }
         else
         {
-            
+            ChangeLevelObj.WaitAndLoadOtherScene("03_Level", 1.0f, false);
         }
     }
 
 
     private void SavePlayerCurrentStatus(int lives, int score, int rings)
     {
-        GameManager.Instance.SetPlayerCurrentStatus(lives, score, rings);
+        GameManager.SetPlayerCurrentStatus(lives, score, rings);
     }
 
 
@@ -430,11 +484,13 @@ public class Sonic : MonoBehaviour, ITakeDamage
             isGrounded = true;
         }
 
+
         if (coll.gameObject.CompareTag("Enemy"))
         {
             if (animState == AnimState.IsIdle || animState == AnimState.IsWalking ||
                 animState == AnimState.IsRunning || animState == AnimState.IsDucking ||
-                animState == AnimState.IsBreaking)
+                animState == AnimState.IsBreaking || animState == AnimState.IsTakingDamage ||
+                animState == AnimState.IsDying)
             {
                 TakeDamage();
             }
@@ -442,6 +498,7 @@ public class Sonic : MonoBehaviour, ITakeDamage
             {
                 coll.collider.enabled = false;
                 coll.gameObject.SendMessage("TakeDamage");
+                scoreAmount += scorePerEnemy;
             }
         }
     }
@@ -449,6 +506,16 @@ public class Sonic : MonoBehaviour, ITakeDamage
 
     void OnTriggerEnter2D(Collider2D coll)
     {
+        if (coll.gameObject.CompareTag("EnemyCollider2"))
+        {
+            if (animState == AnimState.IsChargedRunning)
+            {
+                coll.enabled = false;
+                coll.gameObject.SendMessageUpwards("TakeDamage");
+                scoreAmount += scorePerEnemy;
+            }
+        }
+
         if (coll.CompareTag("Ring"))
             CollectedRing(false);
 
@@ -457,6 +524,9 @@ public class Sonic : MonoBehaviour, ITakeDamage
 
         if (coll.CompareTag("EnemyBullet"))
             TakeDamage();
+
+        if (coll.CompareTag("EndLevel"))
+            EndLevel();
     }
 
     #endregion
