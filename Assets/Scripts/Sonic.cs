@@ -503,10 +503,13 @@ public class Sonic : MonoBehaviour, ITakeDamage
         {
             if (animState == AnimState.IsIdle || animState == AnimState.IsWalking ||
                 animState == AnimState.IsRunning || animState == AnimState.IsDucking ||
-                animState == AnimState.IsBreaking || animState == AnimState.IsTakingDamage ||
-                animState == AnimState.IsDying)
+                animState == AnimState.IsBreaking || animState == AnimState.IsDying)
             {
                 TakeDamage();
+            }
+            else if (animState == AnimState.IsTakingDamage)
+            {
+                JumpBackFromDamage();
             }
             else
             {
