@@ -63,6 +63,7 @@ public class Enemy : MonoBehaviour, ITakeDamage
         EnemySpriteRenderer.enabled = false;
 
         var obj = Instantiate(RingPrefab, gameObject.transform.position, Quaternion.identity) as GameObject;
+        obj.SendMessage("EnemyRing");
 
         Destroy(transform.parent.gameObject);
     }

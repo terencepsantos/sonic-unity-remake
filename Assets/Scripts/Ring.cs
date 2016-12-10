@@ -11,6 +11,8 @@ public class Ring : MonoBehaviour
     public Animator RingAnimator;
 
     private bool isBlinking = false;
+    private bool isCollected = false;
+
 
     void Awake()
     {
@@ -23,8 +25,11 @@ public class Ring : MonoBehaviour
 
     private void TurnOnColliders()
     {
-        RingBounceCollider.enabled = true;
-        RingCollider.enabled = true;
+        if (!isCollected)
+        {
+            RingBounceCollider.enabled = true;
+            RingCollider.enabled = true;
+        }
     }
 
 
@@ -39,6 +44,12 @@ public class Ring : MonoBehaviour
         RingAnimator.SetTrigger("FadeOut");
 
         StartCoroutine(RingBlink());
+    }
+
+
+    private void EnemyRing()
+    {
+        TurnOnColliders();
     }
 
 
@@ -65,6 +76,8 @@ public class Ring : MonoBehaviour
     {
         if (coll.CompareTag("Player"))
         {
+            isCollected = true;
+
             if (isBlinking)
             {
                 Destroy(gameObject);
