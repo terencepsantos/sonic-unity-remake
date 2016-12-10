@@ -107,88 +107,88 @@ public class Sonic : MonoBehaviour, ITakeDamage
         {
             velocityX = Input.GetAxis("Horizontal");
             absoluteMagnitude = Mathf.Abs(playerRigidbody.velocity.magnitude);
-        }
 
-        if (isGrounded)
-        {
-            acceleration = groundAcceleration;
-
-            //Taking Damage State
-            if (animState == AnimState.IsTakingDamage)
+            if (isGrounded)
             {
-                velocityX = 0;
-            }
+                acceleration = groundAcceleration;
 
-            //Duck State
-            if (Input.GetAxisRaw("Vertical") < 0 && absoluteMagnitude < 0.1f)
-            {
-                velocityX = 0;
-
-                if (animState == AnimState.IsIdle || animState == AnimState.IsWalking || animState == AnimState.IsDucking || animState == AnimState.IsJumping)
+                //Taking Damage State
+                if (animState == AnimState.IsTakingDamage)
                 {
-                    animState = AnimState.IsDucking;
-                    playerRigidbody.velocity = new Vector2(0, 0);
+                    velocityX = 0;
                 }
 
-                //Charge (to run) State
-                if (Input.GetButtonDown("Fire1") && (animState == AnimState.IsDucking || animState == AnimState.IsCharging))
+                //Duck State
+                if (Input.GetAxisRaw("Vertical") < 0 && absoluteMagnitude < 0.1f)
                 {
-                    animState = AnimState.IsCharging;
-                    AudioManager.Instance.PlayOneShot(AudioManager.AudioClipsEnum.BeginCharge);
+                    velocityX = 0;
+
+                    if (animState == AnimState.IsIdle || animState == AnimState.IsWalking || animState == AnimState.IsDucking || animState == AnimState.IsJumping)
+                    {
+                        animState = AnimState.IsDucking;
+                        playerRigidbody.velocity = new Vector2(0, 0);
+                    }
+
+                    //Charge (to run) State
+                    if (Input.GetButtonDown("Fire1") && (animState == AnimState.IsDucking || animState == AnimState.IsCharging))
+                    {
+                        animState = AnimState.IsCharging;
+                        AudioManager.Instance.PlayOneShot(AudioManager.AudioClipsEnum.BeginCharge);
+                    }
+                }
+                else
+                {
+                    if (absoluteMagnitude == 0)
+                    {
+                        //Idle State
+                        if (animState == AnimState.IsWalking || animState == AnimState.IsJumping ||
+                            animState == AnimState.IsDucking || animState == AnimState.IsChargedRunning ||
+                            animState == AnimState.IsTakingDamage)
+                        {
+                            animState = AnimState.IsIdle;
+                            playerRigidbody.drag = playerNormalDrag;
+                        }
+
+                        //Charged Run State
+                        if (animState == AnimState.IsCharging)
+                        {
+                            animState = AnimState.IsChargedRunning;
+                            ChargedRun();
+                            playerRigidbody.drag = playerChargedRunningDrag;
+                            AudioManager.Instance.PlayOneShot(AudioManager.AudioClipsEnum.ReleaseCharge);
+                        }
+                    }
+                    else if (absoluteMagnitude > 0 && absoluteMagnitude < runVelocityThreshold)
+                    {
+                        //Walk State
+                        animState = AnimState.IsWalking;
+                        playerRigidbody.drag = playerNormalDrag;
+                        CheckAndTurnPlayerSprite();
+                    }
+                    else if (absoluteMagnitude > runVelocityThreshold && absoluteMagnitude < chargedRunVelocityThreshold)
+                    {
+                        //Run State
+                        animState = AnimState.IsRunning;
+                        playerRigidbody.drag = playerNormalDrag;
+                        CheckAndTurnPlayerSprite();
+                    }
+                }
+
+                //Jump State
+                if (Input.GetButtonDown("Jump"))
+                {
+                    if (absoluteMagnitude < chargedRunVelocityThreshold)
+                        animState = AnimState.IsJumping;
+
+                    Jump();
+                    isGrounded = false;
+                    AudioManager.Instance.PlayOneShot(AudioManager.AudioClipsEnum.Jump);
                 }
             }
             else
             {
-                if (absoluteMagnitude == 0)
-                {
-                    //Idle State
-                    if (animState == AnimState.IsWalking || animState == AnimState.IsJumping ||
-                        animState == AnimState.IsDucking || animState == AnimState.IsChargedRunning ||
-                        animState == AnimState.IsTakingDamage)
-                    {
-                        animState = AnimState.IsIdle;
-                        playerRigidbody.drag = playerNormalDrag;
-                    }
-
-                    //Charged Run State
-                    if (animState == AnimState.IsCharging)
-                    {
-                        animState = AnimState.IsChargedRunning;
-                        ChargedRun();
-                        playerRigidbody.drag = playerChargedRunningDrag;
-                        AudioManager.Instance.PlayOneShot(AudioManager.AudioClipsEnum.ReleaseCharge);
-                    }
-                }
-                else if (absoluteMagnitude > 0 && absoluteMagnitude < runVelocityThreshold)
-                {
-                    //Walk State
-                    animState = AnimState.IsWalking;
-                    playerRigidbody.drag = playerNormalDrag;
-                    CheckAndTurnPlayerSprite();
-                }
-                else if (absoluteMagnitude > runVelocityThreshold && absoluteMagnitude < chargedRunVelocityThreshold)
-                {
-                    //Run State
-                    animState = AnimState.IsRunning;
-                    playerRigidbody.drag = playerNormalDrag;
-                    CheckAndTurnPlayerSprite();
-                }
+                acceleration = airAcceleration;
             }
-
-            //Jump State
-            if (Input.GetButtonDown("Jump"))
-            {
-                if (absoluteMagnitude < chargedRunVelocityThreshold)
-                    animState = AnimState.IsJumping;
-
-                Jump();
-                isGrounded = false;
-                AudioManager.Instance.PlayOneShot(AudioManager.AudioClipsEnum.Jump);
-            }
-        }
-        else
-        {
-            acceleration = airAcceleration;
         }
 
         UpdateAnimConditions();
@@ -265,7 +265,7 @@ public class Sonic : MonoBehaviour, ITakeDamage
 
         isGrounded = true;
         isInvincible = false;
-        isInputBlocked = false;
+        BlockInput(false);
     }
 
 
@@ -297,7 +297,10 @@ public class Sonic : MonoBehaviour, ITakeDamage
 
     private void JumpBackFromDamage()
     {
-        playerRigidbody.AddForce(Vector2.up * (jumpForce / 2), ForceMode2D.Impulse);
+        if (!isGrounded)
+            playerRigidbody.AddForce(Vector2.up * (jumpForce / 2), ForceMode2D.Impulse);
+        else
+            playerRigidbody.AddForce(Vector2.up * (jumpForce / 1.5f), ForceMode2D.Impulse);
 
         var newVector = gameObject.transform.localScale.x >= 0 ? Vector2.left : Vector2.right;
         playerRigidbody.AddForce(newVector * (jumpForce / 2), ForceMode2D.Impulse);
@@ -341,10 +344,9 @@ public class Sonic : MonoBehaviour, ITakeDamage
         if (isInvincible)
             return;
 
+        BlockInput(true);
         isInvincible = true;
         Health--;
-        JumpBackFromDamage();
-        animState = AnimState.IsTakingDamage;
 
         if (Health <= 0)
         {
@@ -352,10 +354,13 @@ public class Sonic : MonoBehaviour, ITakeDamage
             return;
         }
 
+        JumpBackFromDamage();
+        animState = AnimState.IsTakingDamage;
         AudioManager.Instance.PlayOneShot(AudioManager.AudioClipsEnum.TakeDamage);
         ScatterRings();
         Invoke("ResetInvincibleState", timeInvincibleAfterDamage);
         StartCoroutine(PlayerBlink());
+        BlockInput(false);
     }
 
 
@@ -395,27 +400,30 @@ public class Sonic : MonoBehaviour, ITakeDamage
 
     public void Death()
     {
-        isInputBlocked = true;
-        velocityX = 0;
-        animState = AnimState.IsDying;
-        playerCollider.enabled = false;
-        AudioManager.Instance.StopLoops();
-        AudioManager.Instance.PlayOneShot(AudioManager.AudioClipsEnum.PlayerDeath);
+        if (animState != AnimState.IsDying)
+        {
+            BlockInput(true);
+            velocityX = 0;
+            animState = AnimState.IsDying;
+            UpdateAnimConditions();
+            playerCollider.enabled = false;
+            AudioManager.Instance.StopLoops();
+            AudioManager.Instance.PlayOneShot(AudioManager.AudioClipsEnum.PlayerDeath);
 
-        CamPlayerObj.enabled = false;
-        playerRigidbody.AddForce(Vector2.up * (jumpForce / 2), ForceMode2D.Impulse);
+            CamPlayerObj.enabled = false;
+            playerRigidbody.AddForce(Vector2.up * (jumpForce / 2), ForceMode2D.Impulse);
 
-        livesAmount--;
-        SavePlayerCurrentStatus(livesAmount, scoreAmount, ringsAmount);
-        Invoke("CheckLivesForRespawn", 1.5f);
+            livesAmount--;
+            SavePlayerCurrentStatus(livesAmount, scoreAmount, ringsAmount);
+            Invoke("CheckLivesForRespawn", 1.5f);
+        }
     }
 
 
     private void EndLevel()
     {
-        isInputBlocked = true;
+        BlockInput(true);
         CamPlayerObj.enabled = false;
-        isInputBlocked = true;
         velocityX = 2;
         animState = AnimState.IsRunning;
         AudioManager.Instance.StopLoops();
@@ -472,6 +480,12 @@ public class Sonic : MonoBehaviour, ITakeDamage
         LevelUIManager.Instance.RingsAmount.text = ringsAmount.ToString();
         LevelUIManager.Instance.LivesAmount.text = livesAmount.ToString();
         LevelUIManager.Instance.ScoreAmount.text = scoreAmount.ToString();
+    }
+
+
+    private void BlockInput(bool block)
+    {
+        isInputBlocked = block;
     }
 
 

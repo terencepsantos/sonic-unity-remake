@@ -12,7 +12,7 @@ public class CamPlayer : MonoBehaviour
         {
             transform.position = new Vector3(
                 Target.transform.position.x,
-                Target.transform.position.y,
+                Target.transform.position.y + 3,
                 transform.position.z);
         }
     }
