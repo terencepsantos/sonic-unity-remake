@@ -23,12 +23,12 @@ public class Sonic : MonoBehaviour, ITakeDamage
     private float
         playerNormalDrag = 5,
         playerChargedRunningDrag = 3,
-        groundAcceleration = 70,
-        airAcceleration = 100,
-        jumpForce = 25,
-        runVelocityThreshold = 8,
-        chargedRunVelocityThreshold = 12,
-        chargedImpulse = 2,
+        groundAcceleration = 85,
+        airAcceleration = 70,
+        jumpForce = 30,
+        runVelocityThreshold = 9,
+        chargedRunVelocityThreshold = 17,
+        chargedImpulse = 1.5f,
         timeInvincibleAfterDamage = 3.5f;
 
     [SerializeField]
